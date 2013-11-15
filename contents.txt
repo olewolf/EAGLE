@@ -1,0 +1,175 @@
+   PIC16C610
+          EPROM-Based 8-Bit CMOS Microcontrollers
+
+   PIC16C616
+          EPROM-Based 8-Bit CMOS Microcontrollers
+
+   MAX303CPE
+          Dual high-speed analog switches
+          The single-pole double-throw (SPDT) MAX303 has two normally open
+          (NO) and two normally closed (NC) poles.
+          The switches operate with a single positive supply (+10V to
+          +30V) or with split supplies (±4.5V to ±20V) while retaining
+          CMOS-logic input compatibility and fast switching.
+
+   MAX31865
+          RTD to Digital Converter
+          The MAX31865 is a resistance-to-digital converter optimized for
+          platinum resistance temperature detectors (RTDs).
+          An external resistor sets the sensitivity for the RTD being used
+          and a delta-sigma ADC converts the ratio of the RTD resistance
+          to the reference resistance into digital form. The MAX31865’s
+          inputs are protected against overvoltage faults up to +/-50V.
+          Programmable detection of RTD and cable open and short
+          conditions is included.
+
+   RCA-2
+          Two stacked Phono connections for left and right audio
+
+   TDA1554Q
+          4x11 W or 2 x 22 W car radio power amplifier
+
+   TL497A
+          500 mA step-up, step-down, inverting switching voltage regulator
+
+   ZIFSOCKET-40-6
+          Lever-action ZIF socket for 40-pin ICs
+
+   PIC16(L)F1503
+          14-Pin Flash, 8-Bit Microcontrollers
+
+   HEADPHONE-JACK-3.5MM
+          Headphone 3.5mm jack socket
+          Flat PCB-mounted 3.5mm socket for headphone jack, with switches
+          for left and right channels.
+
+   PCB_MATRIX_BUTTON
+
+   PICAXE08M
+          PICAXE 08M microcontroller
+
+   B250C1500
+          Diode bridge
+          1.5 A single-phase bridge rectifier.
+
+   LM2595T-XX
+          Power Converter 150 kHz 1A Step-Down Voltage Regulator
+          Available in 3.3V, 5V, and 12V versions.
+
+   NHD-C0216CIZ-FSW-FBW
+          16 x 2 LCD module
+          NHD - Newhaven Display chip-on-glass 2 lines x 16 characters
+          module with white LED backlight.
+
+          + 2 lines x 16 characters
+          + Built-in ST7032i-oD with I²C interface
+          + 5x8 pixels with cursor
+          + 3V power supply
+          + 1/16 duty, 1/5 bias
+
+   CY7C1010DV33
+
+   74HC(T)4020
+          14-bit asynchronous binary COUNTER
+
+   ICL7667
+          Dual Power MOSFET Driver
+
+   RN-171
+          Roving Networks WiFly RN-171 WLAN module
+
+   MAX3378E
+
+   MAX3390E
+          MAX3390E ±15kV ESD-protected level translators
+
+   MCP2210
+          USB-to-SPI Protocol Converter with GPIO (Master Mode)
+
+   RJ11-GANGED-4X
+          MOLEX RJ-11 4-Ganged
+
+   A3979
+          DMOS Microstepping Driver with Translator
+
+   ID-2
+          125 kHz RFID reader module ID-2, ID-12, or ID20 125 kHz RFID
+          readers from ID-Innovations .
+
+   OVM7690
+
+   LTC3105
+          400 mA step-up DC/DC converter
+
+   LTC4071
+
+   MCP9700
+
+   DUAL-SWITCH-ON-ON
+          SWITCH ON - ON
+
+          Source:
+          http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/7
+          05152-da-01-de-Subminiaturschalter_TL_36YO.pdf
+
+   FT121T
+          USB device controller with SPI slave IC
+
+   RAC01-3.3SC
+          Power line AC to DC converter
+
+   PIC18F1823
+          14-Pin Flash Microcontroller
+
+   FT231X
+          USB to full handshake UART IC
+
+   LM385
+          Micropower voltage reference diode
+
+   PIC16F631
+
+   LCD-HD44780-CONNECTOR
+          Connector for a character LCD module based on the Hitachi
+          HD44780.
+
+   PIC18F14K22
+          Microchip PIC18F14K22 20-pin flash microcontroller
+
+   JD-T1800
+          JD-T1800 (TFT177T027FPC) 128 x 160 pixel SPI LCD display.
+
+   LT1161
+          Quad protected high-side MOSFET driver
+
+   1N4001
+          1N4001 diode
+
+   XBEE-S2C-SMT-TESTHARNESS
+          Test/programming harness for an XBee S2C SMT module using test
+          pins.
+
+   MC33167TV
+          5.0 A, step−up/down/inverting switching regulator
+
+   1140-103K
+          Hi-current inductor choke 10mH (Bourns)
+
+   LT3845
+          High-voltage synchronous current mode step-down voltage
+          controller with adjustable operating frequency.
+
+   ACME-ARIA-G25
+          Acme Systems Aria G25 module
+          Aria G25 is a System-on-Module (SoM) designed for running Linux.
+          It is based on an ARM9 @400 MHz on an Atmel AT91SAM9G25 SoC, and
+          includes 128 MB or 256 MB of DDR2 SDRAM, Ethernet, USB, UART,
+          I2C, SPI, A/D and GPIO.
+
+   TDA7376B
+
+   SP0503BAHTG
+          TVS diode array for ESD and transient protection
+
+   DUAL_USB_A_FEMALE
+          Dual USB A connector (female)

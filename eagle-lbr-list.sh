@@ -2,6 +2,9 @@
 #
 # Dump the contents of an EAGLE library to text.
 #
+# Copyright (C) 2013 Ole Wolf <ole@naturloven.dk>
+#
+# License: GPLv3+.
 
 LIBRARY=$1
 

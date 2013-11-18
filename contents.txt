@@ -173,3 +173,16 @@
 
    DUAL_USB_A_FEMALE
           Dual USB A connector (female)
+
+   HIH-40XX
+          HIH-40xx Humidity Sensor (Honeywell)
+          The HIH-4010 is an uncovered integrated humidity sensor, the
+          HIH-4020 is a covered integrated circuit humidity sensor, and
+          the HIH-4021 is a covered, condensation-resistant, integrated
+          circuit humidity sensor.
+
+   DS2408S+
+          DS2408S+
+          The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO
+          outputs are configured as open-drain and provide an on
+          resistance of 100â¦ max.

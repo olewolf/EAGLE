@@ -186,3 +186,6 @@
           The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO
           outputs are configured as open-drain and provide an on
           resistance of 100â¦ max.
+
+   MOLEX_12152
+          USB A male SMT for plugging a device directly into a USB port.

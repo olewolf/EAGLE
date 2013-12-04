@@ -1886,6 +1886,36 @@ grid 2.54 mm</description>
 <wire x1="-13.55725" y1="-2.95275" x2="-13.55725" y2="-0.41275" width="0.127" layer="21"/>
 <wire x1="-13.55725" y1="-0.41275" x2="-15.24" y2="-0.41275" width="0.127" layer="21"/>
 </package>
+<package name="ANTENNA_50_OHM_PCB">
+<description>50 Ω impedance PCB wire antenna trace</description>
+<wire x1="0" y1="0" x2="4.3942" y2="0" width="0.508" layer="1"/>
+<wire x1="0" y1="0" x2="0" y2="1.397" width="0.508" layer="1"/>
+<wire x1="0" y1="1.397" x2="0" y2="4.3434" width="0.508" layer="1"/>
+<wire x1="2.6416" y1="4.3434" x2="2.6416" y2="6.858" width="0.508" layer="1"/>
+<wire x1="0" y1="4.3434" x2="2.6416" y2="4.3434" width="0.508" layer="1"/>
+<wire x1="0" y1="6.858" x2="2.6416" y2="6.858" width="0.508" layer="1"/>
+<wire x1="2.6416" y1="9.0678" x2="2.6416" y2="11.5824" width="0.508" layer="1"/>
+<wire x1="0" y1="6.858" x2="0" y2="9.0678" width="0.508" layer="1"/>
+<wire x1="0" y1="9.0678" x2="2.6416" y2="9.0678" width="0.508" layer="1"/>
+<wire x1="0" y1="11.5824" x2="2.6416" y2="11.5824" width="0.508" layer="1"/>
+<wire x1="0" y1="11.5824" x2="0" y2="13.7922" width="0.508" layer="1"/>
+<wire x1="0" y1="13.7922" x2="1.651" y2="13.7922" width="0.508" layer="1"/>
+<wire x1="0" y1="1.397" x2="4.3942" y2="1.397" width="0.3048" layer="1"/>
+<pad name="GND" x="4.3942" y="0" drill="0.8" diameter="1.016" shape="square"/>
+<pad name="ANT" x="4.3942" y="1.397" drill="0.8" diameter="1.016" shape="square"/>
+<polygon width="0.127" layer="39">
+<vertex x="-0.3175" y="-0.3175"/>
+<vertex x="3.81" y="-0.3175"/>
+<vertex x="3.81" y="14.2875"/>
+<vertex x="-0.3175" y="14.2875"/>
+</polygon>
+<polygon width="0.127" layer="40">
+<vertex x="-0.3175" y="-0.3175"/>
+<vertex x="3.81" y="-0.3175"/>
+<vertex x="3.81" y="14.2875"/>
+<vertex x="-0.3175" y="14.2875"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="PIC16C610">
@@ -3427,7 +3457,7 @@ Aria G25 is a System-on-Module (SoM) designed for running Linux. It is based on 
 <pin name="SD_CK" x="-31.75" y="-19.05" visible="pin" length="short" direction="out"/>
 <pin name="SD_DA3" x="-31.75" y="-8.89" visible="pin" length="short"/>
 <pin name="SD_CDA" x="-31.75" y="-21.59" visible="pin" length="short"/>
-<pin name="S2/1-WIRE/GPIO" x="-31.75" y="-26.67" visible="pin" length="short"/>
+<pin name="PA21/1-WIRE/GPIO" x="-31.75" y="-26.67" visible="pin" length="short"/>
 <pin name="PA22/GPIO" x="19.05" y="60.96" visible="pin" length="short" rot="R270"/>
 <pin name="PA23/GPIO" x="16.51" y="60.96" visible="pin" length="short" rot="R270"/>
 <pin name="PA24/GPIO" x="13.97" y="60.96" visible="pin" length="short" rot="R270"/>
@@ -3658,6 +3688,19 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <pin name="D-" x="10.16" y="0" visible="pin" length="short" rot="R180"/>
 <pin name="VCC" x="10.16" y="5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
 <pin name="GND" x="10.16" y="-2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
+</symbol>
+<symbol name="50_OHM_PCB_ANTENNA">
+<description>50 Ω impedance PCB wire antenna trace</description>
+<wire x1="-5.08" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="ANT" x="-5.08" y="0" visible="off" length="middle" direction="pas"/>
+<pin name="GND" x="-5.08" y="-2.54" visible="off" length="middle" direction="pwr"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-5.08" x2="-1.524" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-5.842" x2="1.016" y2="-5.842" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-6.604" x2="0.254" y2="-6.604" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5074,6 +5117,7 @@ Aria G25 is a System-on-Module (SoM) designed for running Linux. It is based on 
 <connect gate="G$1" pin="PA13/SPICLK/GPIO" pad="S$10"/>
 <connect gate="G$1" pin="PA14/!SPICS!/GPIO" pad="S$9"/>
 <connect gate="G$1" pin="PA2/RTS0/GPIO" pad="S$21"/>
+<connect gate="G$1" pin="PA21/1-WIRE/GPIO" pad="S$2"/>
 <connect gate="G$1" pin="PA22/GPIO" pad="W$9"/>
 <connect gate="G$1" pin="PA23/GPIO" pad="W$10"/>
 <connect gate="G$1" pin="PA24/GPIO" pad="W$11"/>
@@ -5126,7 +5170,6 @@ Aria G25 is a System-on-Module (SoM) designed for running Linux. It is based on 
 <connect gate="G$1" pin="PC7/GPIO" pad="N$9"/>
 <connect gate="G$1" pin="PC8/GPIO/UTXD0" pad="N$10"/>
 <connect gate="G$1" pin="PC9/GPIO/URXD0" pad="N$11"/>
-<connect gate="G$1" pin="S2/1-WIRE/GPIO" pad="S$2"/>
 <connect gate="G$1" pin="SD_CDA" pad="S$7"/>
 <connect gate="G$1" pin="SD_CK" pad="S$6"/>
 <connect gate="G$1" pin="SD_DA0" pad="S$8"/>
@@ -5284,6 +5327,23 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <connect gate="G$1" pin="D-" pad="D-"/>
 <connect gate="G$1" pin="GND" pad="GND P$5 P$6"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="50_OHM_PCB_ANTENNA">
+<description>50 Ω impedance PCB wire antenna trace</description>
+<gates>
+<gate name="G$1" symbol="50_OHM_PCB_ANTENNA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ANTENNA_50_OHM_PCB">
+<connects>
+<connect gate="G$1" pin="ANT" pad="ANT"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
 </connects>
 <technologies>
 <technology name=""/>

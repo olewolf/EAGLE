@@ -189,3 +189,6 @@
 
    MOLEX_12152
           USB A male SMT for plugging a device directly into a USB port.
+
+   50_OHM_PCB_ANTENNA
+          50 Î© impedance PCB wire antenna trace

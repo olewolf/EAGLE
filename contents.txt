@@ -192,3 +192,8 @@
 
    50_OHM_PCB_ANTENNA
           50 Î© impedance PCB wire antenna trace
+
+   BH1603
+          BH1603 is an analog current output ambient light sensor. It is
+          suitable for obtaining ambient light data for adjusting LCD and
+          keypad backligts.

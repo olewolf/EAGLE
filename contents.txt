@@ -197,3 +197,12 @@
           BH1603 is an analog current output ambient light sensor. It is
           suitable for obtaining ambient light data for adjusting LCD and
           keypad backligts.
+
+   MIC4826
+          Micrel’s MIC4826 is a high output voltage, DC to AC converter,
+          designed for driving EL (Electroluminescent) lamps. The device
+          operates from an input voltage range of 1.8V to 5.5V.
+
+   TS3300
+          0.6-3Vin, 1.8-3.6Vout, 3.5µA, high-efficiency boost + output
+          load switch

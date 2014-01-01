@@ -97,6 +97,8 @@
           readers from ID-Innovations .
 
    OVM7690
+          Color CMOS digital/analog NTSC/PAL image sensor with
+          OmniPixel3-HS technology
 
    LTC3105
           400 mA step-up DC/DC converter

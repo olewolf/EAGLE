@@ -208,3 +208,7 @@
    TS3300
           0.6-3Vin, 1.8-3.6Vout, 3.5µA, high-efficiency boost + output
           load switch
+
+   TPA6211A1
+          3.1 Watt mono differential power audio amplifier, 2.5 V to 5.5
+          V.

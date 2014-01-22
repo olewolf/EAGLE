@@ -373,7 +373,6 @@ Source: http://pdfserv.maxim-ic.com/package_dwgs/21-0140.PDF</description>
 <rectangle x1="0.25" y1="-1.25" x2="1.25" y2="-0.25" layer="31"/>
 <rectangle x1="-1.25" y1="-1.25" x2="-0.25" y2="-0.25" layer="31"/>
 <rectangle x1="-2.4" y1="2.2" x2="-2.2" y2="2.4" layer="1"/>
-<rectangle x1="-2.5" y1="0" x2="0" y2="2.5" layer="51"/>
 <polygon width="0.2" layer="29">
 <vertex x="-1.3" y="1.1"/>
 <vertex x="-1.1" y="1.3"/>
@@ -381,6 +380,7 @@ Source: http://pdfserv.maxim-ic.com/package_dwgs/21-0140.PDF</description>
 <vertex x="1.3" y="-1.3"/>
 <vertex x="-1.3" y="-1.3"/>
 </polygon>
+<circle x="-1.27" y="1.27" radius="0.635" width="0.127" layer="21"/>
 </package>
 <package name="RCA-2-117-01">
 <description>&lt;b&gt;RCA JACK DIP R/A 4pos&lt;/b&gt;&lt;p&gt;
@@ -1439,35 +1439,35 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 </package>
 <package name="JD-T1800-CONNECTOR14">
 <description>JD-T1800 (TFT177T027FPC) LCD display</description>
-<smd name="P$1" x="0" y="6.5" dx="2" dy="0.7" layer="1"/>
-<smd name="P$2" x="0" y="5.5" dx="2" dy="0.7" layer="1"/>
-<smd name="P$3" x="0" y="4.5" dx="2" dy="0.7" layer="1"/>
-<smd name="P$4" x="0" y="3.5" dx="2" dy="0.7" layer="1"/>
-<smd name="P$5" x="0" y="2.5" dx="2" dy="0.7" layer="1"/>
-<smd name="P$6" x="0" y="1.5" dx="2" dy="0.7" layer="1"/>
-<smd name="P$7" x="0" y="0.5" dx="2" dy="0.7" layer="1"/>
-<smd name="P$8" x="0" y="-0.5" dx="2" dy="0.7" layer="1"/>
-<smd name="P$9" x="0" y="-1.5" dx="2" dy="0.7" layer="1"/>
-<smd name="P$10" x="0" y="-2.5" dx="2" dy="0.7" layer="1"/>
-<smd name="P$11" x="0" y="-3.5" dx="2" dy="0.7" layer="1"/>
-<smd name="P$12" x="0" y="-4.5" dx="2" dy="0.7" layer="1"/>
-<smd name="P$13" x="0" y="-5.5" dx="2" dy="0.7" layer="1"/>
-<smd name="P$14" x="0" y="-6.5" dx="2" dy="0.7" layer="1"/>
-<hole x="-3" y="8.7" drill="1"/>
-<hole x="-3" y="-13.8" drill="1"/>
+<smd name="P$1" x="0.06" y="4.95" dx="2" dy="0.5" layer="1"/>
+<smd name="P$2" x="0.06" y="4.1675" dx="2" dy="0.5" layer="1"/>
+<smd name="P$3" x="0.06" y="3.38" dx="2" dy="0.5" layer="1"/>
+<smd name="P$4" x="0.06" y="2.5975" dx="2" dy="0.5" layer="1"/>
+<smd name="P$5" x="0.06" y="1.8125" dx="2" dy="0.5" layer="1"/>
+<smd name="P$6" x="0.06" y="1.035" dx="2" dy="0.5" layer="1"/>
+<smd name="P$7" x="0.06" y="0.25" dx="2" dy="0.5" layer="1"/>
+<smd name="P$8" x="0.06" y="-0.535" dx="2" dy="0.5" layer="1"/>
+<smd name="P$9" x="0.06" y="-1.3175" dx="2" dy="0.5" layer="1"/>
+<smd name="P$10" x="0.06" y="-2.095" dx="2" dy="0.5" layer="1"/>
+<smd name="P$11" x="0.06" y="-2.8825" dx="2" dy="0.5" layer="1"/>
+<smd name="P$12" x="0.06" y="-3.67" dx="2" dy="0.5" layer="1"/>
+<smd name="P$13" x="0.06" y="-4.44" dx="2" dy="0.5" layer="1"/>
+<smd name="P$14" x="0.035" y="-5.2275" dx="2" dy="0.5" layer="1"/>
+<hole x="-3" y="7.7" drill="1"/>
+<hole x="-3" y="-12.8" drill="1"/>
 <wire x1="-57" y1="-17" x2="-57" y2="17" width="0.127" layer="25"/>
 <wire x1="-57" y1="17" x2="-11" y2="17" width="0.127" layer="25"/>
 <wire x1="-57" y1="-17" x2="-11" y2="-17" width="0.127" layer="25"/>
 <wire x1="-11" y1="-17" x2="-11" y2="-9" width="0.127" layer="25"/>
 <wire x1="-11" y1="-9" x2="-9" y2="-9" width="0.127" layer="25"/>
-<wire x1="-9" y1="-9" x2="-9" y2="-15" width="0.127" layer="25"/>
-<wire x1="-9" y1="-15" x2="-2" y2="-15" width="0.127" layer="25"/>
-<wire x1="-2" y1="-15" x2="-2" y2="-10" width="0.127" layer="25"/>
+<wire x1="-9" y1="-9" x2="-9" y2="-13.75" width="0.127" layer="25"/>
+<wire x1="-9" y1="-13.75" x2="-2" y2="-13.75" width="0.127" layer="25"/>
+<wire x1="-2" y1="-13.75" x2="-2" y2="-10" width="0.127" layer="25"/>
 <wire x1="-2" y1="-10" x2="1" y2="-10" width="0.127" layer="25"/>
-<wire x1="-11" y1="17" x2="-11" y2="12" width="0.127" layer="25"/>
-<wire x1="-11" y1="12" x2="-9" y2="14" width="0.127" layer="25"/>
-<wire x1="-9" y1="14" x2="-1" y2="14" width="0.127" layer="25"/>
-<wire x1="-1" y1="14" x2="-1" y2="10" width="0.127" layer="25"/>
+<wire x1="-11" y1="17" x2="-11" y2="12.25" width="0.127" layer="25"/>
+<wire x1="-11" y1="12.25" x2="-9" y2="14.25" width="0.127" layer="25"/>
+<wire x1="-9" y1="14.25" x2="-1" y2="14.25" width="0.127" layer="25"/>
+<wire x1="-1" y1="14.25" x2="-1" y2="10" width="0.127" layer="25"/>
 <wire x1="-1" y1="10" x2="1" y2="10" width="0.127" layer="25"/>
 <wire x1="1" y1="10" x2="1" y2="-10" width="0.127" layer="25"/>
 <rectangle x1="-56" y1="-16" x2="-19" y2="16" layer="25"/>
@@ -2018,30 +2018,30 @@ grid 2.54 mm</description>
 </package>
 <package name="MSOP8">
 <description>10-Lead Mini Small Outline Package [MSOP]</description>
-<wire x1="-1.4" y1="1.4" x2="0.892" y2="1.4" width="0.2032" layer="21"/>
-<wire x1="0.892" y1="1.4" x2="0.892" y2="-1.4" width="0.2032" layer="21"/>
-<wire x1="0.892" y1="-1.4" x2="-1.4" y2="-1.4" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="-1.4" x2="-1.4" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="1.4" x2="0.992" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="0.992" y1="1.4" x2="0.992" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="0.992" y1="-1.4" x2="-1.6" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="-1.4" x2="-1.6" y2="1.4" width="0.2032" layer="21"/>
 <wire x1="-0.8" y1="-1.1" x2="-0.8" y2="-0.5" width="0.2032" layer="21" curve="-180"/>
 <wire x1="-0.8" y1="-0.5" x2="-0.8" y2="-1.1" width="0.2032" layer="21"/>
-<smd name="1" x="-1" y="-2.1131" dx="0.25" dy="1" layer="1"/>
-<smd name="2" x="-0.5" y="-2.1131" dx="0.25" dy="1" layer="1"/>
-<smd name="3" x="0" y="-2.1131" dx="0.25" dy="1" layer="1"/>
-<smd name="4" x="0.5" y="-2.1131" dx="0.25" dy="1" layer="1"/>
-<smd name="5" x="0.5" y="2.1131" dx="0.25" dy="1" layer="1" rot="R180"/>
-<smd name="6" x="0" y="2.1131" dx="0.25" dy="1" layer="1" rot="R180"/>
-<smd name="7" x="-0.5" y="2.1131" dx="0.25" dy="1" layer="1" rot="R180"/>
-<smd name="8" x="-1" y="2.1131" dx="0.25" dy="1" layer="1" rot="R180"/>
 <text x="-2.032" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="2.794" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<rectangle x1="-1.1244" y1="-2.5" x2="-0.8744" y2="-1.5" layer="51"/>
-<rectangle x1="-0.6244" y1="-2.5" x2="-0.3744" y2="-1.5" layer="51"/>
-<rectangle x1="-0.1244" y1="-2.5" x2="0.1256" y2="-1.5" layer="51"/>
-<rectangle x1="0.3756" y1="-2.5" x2="0.6256" y2="-1.5" layer="51"/>
-<rectangle x1="0.3744" y1="1.5" x2="0.6244" y2="2.5" layer="51" rot="R180"/>
-<rectangle x1="-0.1256" y1="1.5" x2="0.1244" y2="2.5" layer="51" rot="R180"/>
-<rectangle x1="-0.6256" y1="1.5" x2="-0.3756" y2="2.5" layer="51" rot="R180"/>
-<rectangle x1="-1.1256" y1="1.5" x2="-0.8756" y2="2.5" layer="51" rot="R180"/>
+<rectangle x1="-1.4244" y1="-2.4" x2="-1.1744" y2="-1.4" layer="51"/>
+<rectangle x1="-0.7744" y1="-2.4" x2="-0.5244" y2="-1.4" layer="51"/>
+<smd name="1" x="-1.3" y="-1.905" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="2" x="-0.65" y="-1.905" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="3" x="0" y="-1.905" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="4" x="0.65" y="-1.905" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="-1.3" y="1.95" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="-0.65" y="1.95" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="0" y="1.95" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="5" x="0.65" y="1.95" dx="1" dy="0.3" layer="1" rot="R90"/>
+<rectangle x1="-0.1244" y1="-2.4" x2="0.1256" y2="-1.4" layer="51"/>
+<rectangle x1="0.5256" y1="-2.4" x2="0.7756" y2="-1.4" layer="51"/>
+<rectangle x1="0.5256" y1="1.45" x2="0.7756" y2="2.45" layer="51"/>
+<rectangle x1="-0.1244" y1="1.45" x2="0.1256" y2="2.45" layer="51"/>
+<rectangle x1="-0.7744" y1="1.45" x2="-0.5244" y2="2.45" layer="51"/>
+<rectangle x1="-1.4244" y1="1.45" x2="-1.1744" y2="2.45" layer="51"/>
 </package>
 <package name="TQFN33-4X4">
 <smd name="P$1" x="-3.81" y="2.54" dx="1.27" dy="0.635" layer="1" rot="R180"/>
@@ -3921,6 +3921,8 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <wire x1="-10.16" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
 <wire x1="7.62" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<text x="-9.144" y="11.938" size="1.778" layer="94">&gt;NAME</text>
+<text x="-9.398" y="-13.462" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
 <symbol name="TS3300">
 <description>0.6-3Vin, 1.8-3.6Vout, 3.5µA, high-efficiency boost + output load switch</description>
@@ -3942,69 +3944,31 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <wire x1="-12.7" y1="-17.78" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
 <pin name="GND" x="15.24" y="-5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
 </symbol>
-<symbol name="TPA6211A1">
-<description>3.1 Watt mono differential power audio amplifier, 2.5 V to 5.5 V.</description>
-<pin name="IN-" x="-12.7" y="0" visible="off" length="short" direction="in"/>
-<pin name="IN+" x="-12.7" y="5.08" visible="off" length="short" direction="in"/>
-<wire x1="-10.16" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="0" x2="-5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<text x="-2.032" y="4.572" size="1.778" layer="94">+</text>
-<text x="-1.778" y="0.254" size="1.778" layer="94">_</text>
-<wire x1="2.54" y1="5.08" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="10.16" x2="-1.27" y2="10.16" width="0.254" layer="94"/>
-<circle x="-5.08" y="5.08" radius="0.254" width="0.254" layer="94"/>
-<circle x="-5.08" y="0" radius="0.254" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="10.16" x2="1.016" y2="10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<circle x="5.08" y="5.08" radius="0.254" width="0.254" layer="94"/>
-<circle x="5.08" y="0" radius="0.254" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="10.16" x2="-1.016" y2="10.922" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="10.922" x2="-0.762" y2="9.398" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="9.398" x2="-0.254" y2="10.922" width="0.254" layer="94"/>
-<wire x1="-0.254" y1="10.922" x2="0" y2="9.398" width="0.254" layer="94"/>
-<wire x1="0" y1="9.398" x2="0.508" y2="10.922" width="0.254" layer="94"/>
-<wire x1="0.508" y1="10.922" x2="0.762" y2="9.398" width="0.254" layer="94"/>
-<wire x1="0.762" y1="9.398" x2="1.016" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="-1.27" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="1.016" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-5.08" x2="-1.016" y2="-4.318" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-4.318" x2="-0.762" y2="-5.842" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="-5.842" x2="-0.254" y2="-4.318" width="0.254" layer="94"/>
-<wire x1="-0.254" y1="-4.318" x2="0" y2="-5.842" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.842" x2="0.508" y2="-4.318" width="0.254" layer="94"/>
-<wire x1="0.508" y1="-4.318" x2="0.762" y2="-5.842" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-5.842" x2="1.016" y2="-5.08" width="0.254" layer="94"/>
-<pin name="VO+" x="12.7" y="5.08" visible="off" length="short" direction="out" rot="R180"/>
-<pin name="VO-" x="12.7" y="0" visible="off" length="short" direction="out" rot="R180"/>
-<text x="-8.89" y="5.842" size="1.016" layer="94">IN+</text>
-<text x="-8.89" y="-0.762" size="1.016" layer="94" align="top-left">IN-</text>
-<text x="8.89" y="-0.762" size="1.016" layer="94" align="top-right">VO-</text>
-<text x="9.144" y="5.842" size="1.016" layer="94" align="bottom-right">VO+</text>
-<wire x1="-10.16" y1="12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
-<text x="0" y="8.89" size="0.8128" layer="94" align="top-center">40k</text>
-<text x="0" y="-6.35" size="0.8128" layer="94" align="top-center">40k</text>
-<pin name="!SHUTDOWN" x="-12.7" y="-10.16" visible="off" length="short" direction="in"/>
-<pin name="BYPASS" x="12.7" y="-10.16" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="-8.89" y="-10.16" size="1.016" layer="94" align="center-left">!SHUTDOWN</text>
-<text x="8.89" y="-10.16" size="1.016" layer="94" rot="MR0" align="center-left">BYPASS</text>
-<text x="-10.16" y="-13.716" size="1.27" layer="94" align="top-left">&gt;NAME</text>
-<text x="10.16" y="-13.716" size="1.27" layer="94" align="top-right">&gt;VALUE</text>
+<symbol name="BQ25570">
+<description>Energy harvesting nano-power management IC designed to acquire and manage the microwatts (μW) to milliwatts (mW) of power generated from a variety of DC sources. The IC an be started with Vin = 330 mV, and can continue to harvest energy down to VIN = 100 mV.</description>
+<pin name="VOC_SAMP" x="-7.62" y="30.48" visible="pin" length="short" direction="pas" rot="R270"/>
+<pin name="VSTOR" x="2.54" y="30.48" visible="pin" length="short" direction="pas" rot="R270"/>
+<pin name="VBAT" x="12.7" y="30.48" visible="pin" length="short" direction="pwr" rot="R270"/>
+<pin name="VOUT" x="30.48" y="-2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="LBUCK" x="30.48" y="10.16" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="VRDIV" x="-10.16" y="-38.1" visible="pin" length="short" direction="in" rot="R90"/>
+<pin name="OK_PROG" x="5.08" y="-38.1" visible="pin" length="short" direction="in" rot="R90"/>
+<pin name="OK_HYST" x="12.7" y="-38.1" visible="pin" length="short" direction="in" rot="R90"/>
+<pin name="VOUT_SET" x="20.32" y="-38.1" visible="pin" length="short" direction="in" rot="R90"/>
+<pin name="VBAT_0V" x="-2.54" y="-38.1" visible="pin" length="short" direction="in" rot="R90"/>
+<pin name="LBOOST" x="-27.94" y="15.24" visible="pin" length="short" direction="pas"/>
+<pin name="VREF_SAMP" x="-27.94" y="7.62" visible="pin" length="short"/>
+<pin name="VIN_DC" x="-27.94" y="-10.16" visible="pin" length="short" direction="pwr"/>
+<pin name="!EN" x="-27.94" y="-15.24" visible="pin" length="short" direction="in"/>
+<pin name="VOUT_EN" x="-27.94" y="-20.32" visible="pin" length="short" direction="in"/>
+<pin name="VBAT_OK" x="-27.94" y="-25.4" visible="pin" length="short" direction="out"/>
+<wire x1="-25.4" y1="27.94" x2="27.94" y2="27.94" width="0.254" layer="94"/>
+<wire x1="27.94" y1="27.94" x2="27.94" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-35.56" x2="-25.4" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-35.56" x2="-25.4" y2="27.94" width="0.254" layer="94"/>
+<text x="-5.08" y="0" size="1.778" layer="94">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.778" layer="94">&gt;VALUE</text>
+<pin name="VSS" x="30.48" y="-15.24" visible="pin" length="short" direction="pwr" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5727,23 +5691,31 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 </device>
 </devices>
 </deviceset>
-<deviceset name="TPA6211A1" uservalue="yes">
-<description>3.1 Watt mono differential power audio amplifier, 2.5 V to 5.5 V.</description>
+<deviceset name="BQ25570">
+<description>Energy harvesting nano-power management IC designed to acquire and manage the microwatts (μW) to milliwatts (mW) of power generated from a variety of DC sources. The IC an be started with Vin = 330 mV, and can continue to harvest energy down to VIN = 100 mV.</description>
 <gates>
-<gate name="G$1" symbol="TPA6211A1" x="0" y="0"/>
-<gate name="G$2" symbol="PWRN" x="-22.86" y="0"/>
+<gate name="G$1" symbol="BQ25570" x="-2.54" y="2.54"/>
 </gates>
 <devices>
-<device name="" package="MSOP-8-SINK">
+<device name="" package="TQFN20-5X5">
 <connects>
-<connect gate="G$1" pin="!SHUTDOWN" pad="P$1"/>
-<connect gate="G$1" pin="BYPASS" pad="P$2"/>
-<connect gate="G$1" pin="IN+" pad="P$3"/>
-<connect gate="G$1" pin="IN-" pad="P$4"/>
-<connect gate="G$1" pin="VO+" pad="P$5"/>
-<connect gate="G$1" pin="VO-" pad="P$8"/>
-<connect gate="G$2" pin="GND" pad="P$7 P$10"/>
-<connect gate="G$2" pin="VCC" pad="P$6"/>
+<connect gate="G$1" pin="!EN" pad="5"/>
+<connect gate="G$1" pin="LBOOST" pad="20"/>
+<connect gate="G$1" pin="LBUCK" pad="16"/>
+<connect gate="G$1" pin="OK_HYST" pad="10"/>
+<connect gate="G$1" pin="OK_PROG" pad="11"/>
+<connect gate="G$1" pin="VBAT" pad="7"/>
+<connect gate="G$1" pin="VBAT_0V" pad="18"/>
+<connect gate="G$1" pin="VBAT_OK" pad="13"/>
+<connect gate="G$1" pin="VIN_DC" pad="2"/>
+<connect gate="G$1" pin="VOC_SAMP" pad="3"/>
+<connect gate="G$1" pin="VOUT" pad="14"/>
+<connect gate="G$1" pin="VOUT_EN" pad="6"/>
+<connect gate="G$1" pin="VOUT_SET" pad="12"/>
+<connect gate="G$1" pin="VRDIV" pad="8"/>
+<connect gate="G$1" pin="VREF_SAMP" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="1 9 15 17 EXP"/>
+<connect gate="G$1" pin="VSTOR" pad="19"/>
 </connects>
 <technologies>
 <technology name=""/>

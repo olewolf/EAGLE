@@ -215,3 +215,7 @@
           generated from a variety of DC sources. The IC an be started
           with Vin = 330 mV, and can continue to harvest energy down to
           VIN = 100 mV.
+
+   TPA6211A1
+          3.1 Watt mono, full differential audio amplifier, VDD=2.5V ..
+          6V.

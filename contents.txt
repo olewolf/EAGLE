@@ -219,3 +219,5 @@
    TPA6211A1
           3.1 Watt mono, full differential audio amplifier, VDD=2.5V ..
           6V.
+
+   SD-CARD

@@ -221,3 +221,9 @@
           6V.
 
    SD-CARD
+
+   ATSHA204-TSU-T
+          Atmel SHA256 crypto-authentication with I2C bus.
+
+   CC3000
+          Wi-Fi 802.11b/g network processor

@@ -215,3 +215,20 @@
           generated from a variety of DC sources. The IC an be started
           with Vin = 330 mV, and can continue to harvest energy down to
           VIN = 100 mV.
+
+   TPA6211A1
+          3.1 Watt mono, full differential audio amplifier, VDD=2.5V ..
+          6V.
+
+   SD-CARD
+
+   ATSHA204-TSU-T
+          Atmel SHA256 crypto-authentication with I2C bus.
+
+   LTC3127
+          1A buck-boost DC/DC converter with programmable input current
+          limit.
+
+   LTC3388-X
+          High efficiency step-down DC/DC converters with internal high
+          side and synchronous power switches capable of delivering 50 mA.

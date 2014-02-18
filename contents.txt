@@ -225,6 +225,11 @@
    ATSHA204-TSU-T
           Atmel SHA256 crypto-authentication with I2C bus.
 
+<<<<<<< HEAD
    LTC3127
           1A buck-boost DC/DC converter with programmable input current
           limit.
+=======
+   CC3000
+          Wi-Fi 802.11b/g network processor
+>>>>>>> f73e2aa9db32a66893c98e03c5ea7c28e7f3d9bf

@@ -221,3 +221,10 @@
           6V.
 
    SD-CARD
+
+   ATSHA204-TSU-T
+          Atmel SHA256 crypto-authentication with I2C bus.
+
+   LTC3127
+          1A buck-boost DC/DC converter with programmable input current
+          limit.

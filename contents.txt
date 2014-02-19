@@ -239,3 +239,6 @@
 
    LTC3225EDDB-1
           Programmable 150 mA supercapacitor charger
+
+   LTC3226EUD
+          2-cell supercapacitor charger with backup powerpath controller

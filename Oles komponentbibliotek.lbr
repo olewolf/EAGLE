@@ -2198,6 +2198,31 @@ grid 2.54 mm</description>
 <wire x1="-1.2" y1="-1.35" x2="-1.2" y2="1.2" width="0.1" layer="21"/>
 <circle x="-0.7" y="-0.9" radius="0.22360625" width="0.1" layer="21"/>
 </package>
+<package name="QFN-16">
+<description>16-Lead Plastic QFN (3mm × 3mm) with exposed pad</description>
+<smd name="P$1" x="-1.4" y="0.7" dx="0.7" dy="0.25" layer="1"/>
+<smd name="P$2" x="-1.4" y="0.2" dx="0.7" dy="0.25" layer="1"/>
+<smd name="P$3" x="-1.4" y="-0.3" dx="0.7" dy="0.25" layer="1"/>
+<smd name="P$4" x="-1.4" y="-0.8" dx="0.7" dy="0.25" layer="1"/>
+<smd name="P$5" x="-0.75" y="-1.45" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$6" x="-0.25" y="-1.45" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$7" x="0.25" y="-1.45" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$8" x="0.75" y="-1.45" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$9" x="1.4" y="-0.8" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$10" x="1.4" y="-0.3" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$11" x="1.4" y="0.2" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$12" x="1.4" y="0.7" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$13" x="0.75" y="1.35" dx="0.7" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$14" x="0.25" y="1.35" dx="0.7" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$15" x="-0.25" y="1.35" dx="0.7" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$16" x="-0.75" y="1.35" dx="0.7" dy="0.25" layer="1" rot="R270"/>
+<circle x="-1.1" y="1" radius="0.282840625" width="0.1" layer="21"/>
+<wire x1="1.75" y1="1.7" x2="-1.75" y2="1.7" width="0.1" layer="21"/>
+<wire x1="-1.75" y1="1.7" x2="-1.75" y2="-1.8" width="0.1" layer="21"/>
+<wire x1="-1.75" y1="-1.8" x2="1.75" y2="-1.8" width="0.1" layer="21"/>
+<wire x1="1.75" y1="-1.8" x2="1.75" y2="1.7" width="0.1" layer="21"/>
+<smd name="P$17" x="0" y="-0.05" dx="1.45" dy="1.45" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PIC16C610">
@@ -4262,6 +4287,32 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <text x="2.54" y="-15.24" size="1.27" layer="94">&gt;VALUE</text>
 <pin name="PROG" x="12.7" y="-5.08" visible="pin" length="short" direction="in" rot="R180"/>
 </symbol>
+<symbol name="LTC3226EUD">
+<description>2-cell supercapacitor charger with backup powerpath controller</description>
+<pin name="VIN" x="-12.7" y="20.32" visible="pin" length="short" direction="pwr"/>
+<pin name="PFI" x="-12.7" y="15.24" visible="pin" length="short" direction="in"/>
+<pin name="C+" x="-12.7" y="10.16" visible="pin" length="short" direction="pas"/>
+<pin name="C-" x="-12.7" y="5.08" visible="pin" length="short" direction="pas"/>
+<pin name="EN_CHG" x="-12.7" y="0" visible="pin" length="short" direction="in"/>
+<pin name="PROG" x="-12.7" y="-5.08" visible="pin" length="short" direction="in"/>
+<pin name="GND" x="-12.7" y="-20.32" visible="pin" length="short" direction="pwr"/>
+<pin name="PGOOD" x="15.24" y="-20.32" visible="pin" length="short" direction="out" rot="R180"/>
+<pin name="!PFO" x="-12.7" y="-15.24" visible="pin" length="short" direction="out"/>
+<pin name="!RST" x="-12.7" y="-10.16" visible="pin" length="short" direction="out"/>
+<pin name="RST_FB" x="15.24" y="5.08" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="LDO_FB" x="15.24" y="10.16" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="VMID" x="15.24" y="-5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="CPO" x="15.24" y="0" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="VOUT" x="15.24" y="15.24" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="GATE" x="15.24" y="20.32" visible="pin" length="short" direction="out" rot="R180"/>
+<wire x1="12.7" y1="22.86" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="22.86" x2="-10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-22.86" x2="12.7" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-22.86" x2="12.7" y2="22.86" width="0.254" layer="94"/>
+<text x="-10.16" y="-25.4" size="1.27" layer="94">&gt;NAME</text>
+<text x="2.54" y="-25.4" size="1.27" layer="94">&gt;VALUE</text>
+<pin name="CPO_FB" x="15.24" y="-10.16" visible="pin" length="short" direction="in" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PIC16C610" prefix="IC">
@@ -6179,6 +6230,38 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <connect gate="G$1" pin="VIN" pad="P$9"/>
 <connect gate="G$1" pin="VOUT" pad="P$10"/>
 <connect gate="G$1" pin="VSEL" pad="P$6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LTC3226EUD" uservalue="yes">
+<description>2-cell supercapacitor charger with backup powerpath controller</description>
+<gates>
+<gate name="G$1" symbol="LTC3226EUD" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN-16">
+<connects>
+<connect gate="G$1" pin="!PFO" pad="P$2"/>
+<connect gate="G$1" pin="!RST" pad="P$7"/>
+<connect gate="G$1" pin="C+" pad="P$15"/>
+<connect gate="G$1" pin="C-" pad="P$12"/>
+<connect gate="G$1" pin="CPO" pad="P$16"/>
+<connect gate="G$1" pin="CPO_FB" pad="P$10"/>
+<connect gate="G$1" pin="EN_CHG" pad="P$8"/>
+<connect gate="G$1" pin="GATE" pad="P$5"/>
+<connect gate="G$1" pin="GND" pad="P$17"/>
+<connect gate="G$1" pin="LDO_FB" pad="P$4"/>
+<connect gate="G$1" pin="PFI" pad="P$3"/>
+<connect gate="G$1" pin="PGOOD" pad="P$11"/>
+<connect gate="G$1" pin="PROG" pad="P$9"/>
+<connect gate="G$1" pin="RST_FB" pad="P$6"/>
+<connect gate="G$1" pin="VIN" pad="P$13"/>
+<connect gate="G$1" pin="VMID" pad="P$14"/>
+<connect gate="G$1" pin="VOUT" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>

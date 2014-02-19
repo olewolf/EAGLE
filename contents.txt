@@ -236,3 +236,6 @@
    MAX31850KATB+
           Cold-junction compensated, 1-wire thermocouple-to-digital
           converter
+
+   LTC3225EDDB-1
+          Programmable 150 mA supercapacitor charger

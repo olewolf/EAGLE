@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2179,6 +2179,25 @@ grid 2.54 mm</description>
 <wire x1="-1.85" y1="-1.3" x2="-1.85" y2="1.3" width="0" layer="21"/>
 <circle x="-1.2" y="0.8" radius="0.282840625" width="0.05" layer="21"/>
 </package>
+<package name="DFN-EP-10">
+<description>DDB package 10-Lead Plastic DFN (3mm × 2mm) with exposed pad</description>
+<smd name="P$1" x="-1" y="-1.05" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$2" x="-0.5" y="-1.05" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$3" x="0" y="-1.05" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$4" x="0.5" y="-1.05" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$5" x="1" y="-1.05" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$6" x="1" y="0.9" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$7" x="0.5" y="0.9" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$8" x="0" y="0.9" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$9" x="-0.5" y="0.9" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$10" x="-1" y="0.9" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<rectangle x1="-1.2" y1="-0.6" x2="1.2" y2="0.45" layer="1"/>
+<wire x1="-1.2" y1="1.2" x2="1.2" y2="1.2" width="0.1" layer="21"/>
+<wire x1="1.2" y1="1.2" x2="1.2" y2="-1.35" width="0.1" layer="21"/>
+<wire x1="1.2" y1="-1.35" x2="-1.2" y2="-1.35" width="0.1" layer="21"/>
+<wire x1="-1.2" y1="-1.35" x2="-1.2" y2="1.2" width="0.1" layer="21"/>
+<circle x="-0.7" y="-0.9" radius="0.22360625" width="0.1" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PIC16C610">
@@ -4224,6 +4243,25 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <text x="2.54" y="-15.24" size="1.27" layer="94">&gt;NAME</text>
 <text x="2.54" y="-17.272" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
+<symbol name="LTC3225EDDB-1">
+<description>Programmable 150 mA supercapacitor charger</description>
+<pin name="C+" x="-12.7" y="5.08" visible="pin" length="short" direction="pas"/>
+<pin name="C-" x="-12.7" y="0" visible="pin" length="short" direction="pas"/>
+<pin name="VIN" x="-12.7" y="10.16" visible="pin" length="short" direction="pwr"/>
+<pin name="GND" x="12.7" y="-10.16" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="VOUT" x="12.7" y="10.16" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="CX" x="12.7" y="5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="PGOOD" x="12.7" y="0" visible="pin" length="short" direction="out" rot="R180"/>
+<pin name="!SHDN" x="-12.7" y="-5.08" visible="pin" length="short" direction="in"/>
+<pin name="VSEL" x="-12.7" y="-10.16" visible="pin" length="short" direction="in"/>
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<text x="-10.16" y="-15.24" size="1.27" layer="94">&gt;NAME</text>
+<text x="2.54" y="-15.24" size="1.27" layer="94">&gt;VALUE</text>
+<pin name="PROG" x="12.7" y="-5.08" visible="pin" length="short" direction="in" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PIC16C610" prefix="IC">
@@ -6116,6 +6154,31 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <connect gate="G$1" pin="T+" pad="P$3"/>
 <connect gate="G$1" pin="T-" pad="P$2"/>
 <connect gate="G$1" pin="VDD" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LTC3225EDDB-1">
+<description>Programmable 150 mA supercapacitor charger</description>
+<gates>
+<gate name="G$1" symbol="LTC3225EDDB-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DFN-EP-10">
+<connects>
+<connect gate="G$1" pin="!SHDN" pad="P$4"/>
+<connect gate="G$1" pin="C+" pad="P$1"/>
+<connect gate="G$1" pin="C-" pad="P$2"/>
+<connect gate="G$1" pin="CX" pad="P$3"/>
+<connect gate="G$1" pin="GND" pad="P$8"/>
+<connect gate="G$1" pin="PGOOD" pad="P$5"/>
+<connect gate="G$1" pin="PROG" pad="P$7"/>
+<connect gate="G$1" pin="VIN" pad="P$9"/>
+<connect gate="G$1" pin="VOUT" pad="P$10"/>
+<connect gate="G$1" pin="VSEL" pad="P$6"/>
 </connects>
 <technologies>
 <technology name=""/>

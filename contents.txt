@@ -232,3 +232,7 @@
    LTC3388-X
           High efficiency step-down DC/DC converters with internal high
           side and synchronous power switches capable of delivering 50 mA.
+
+   MAX31850KATB+
+          Cold-junction compensated, 1-wire thermocouple-to-digital
+          converter

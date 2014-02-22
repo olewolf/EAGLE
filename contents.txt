@@ -242,3 +242,7 @@
 
    LTC3226EUD
           2-cell supercapacitor charger with backup powerpath controller
+
+   WM8524
+          24-bit 192kHz stereo DAC with 2Vrms ground referenced line
+          output. LJ, RJ, and I2S interface.

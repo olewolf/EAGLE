@@ -4313,6 +4313,29 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <text x="2.54" y="-25.4" size="1.27" layer="94">&gt;VALUE</text>
 <pin name="CPO_FB" x="15.24" y="-10.16" visible="pin" length="short" direction="in" rot="R180"/>
 </symbol>
+<symbol name="WM8524">
+<description>24-bit 192kHz stereo DAC with 2Vrms ground referenced line output. LJ, RJ, and I2S interface.</description>
+<pin name="MCLK" x="-17.78" y="15.24" visible="pin" length="short" direction="in"/>
+<pin name="BCLK" x="-17.78" y="10.16" visible="pin" length="short" direction="in"/>
+<pin name="LRCLK" x="-17.78" y="5.08" visible="pin" length="short" direction="in"/>
+<pin name="DACDAT" x="-17.78" y="0" visible="pin" length="short" direction="in"/>
+<pin name="!MUTE" x="-17.78" y="-5.08" visible="pin" length="short" direction="in"/>
+<pin name="AIFMODE" x="-17.78" y="-10.16" visible="pin" length="short" direction="in"/>
+<pin name="LINEVDD" x="17.78" y="5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="AVDD" x="-17.78" y="20.32" visible="pin" length="short" direction="pwr"/>
+<pin name="AGND" x="-17.78" y="-20.32" visible="pin" length="short" direction="pwr"/>
+<pin name="LINEGND" x="17.78" y="-20.32" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="VMID" x="-17.78" y="-15.24" visible="pin" length="short" direction="pwr"/>
+<pin name="CPCA" x="17.78" y="20.32" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="CPCB" x="17.78" y="15.24" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="LINEVOUTL" x="17.78" y="0" visible="pin" length="short" direction="out" rot="R180"/>
+<pin name="LINEVOUTR" x="17.78" y="-5.08" visible="pin" length="short" direction="out" rot="R180"/>
+<pin name="CPVOUTN" x="17.78" y="-10.16" visible="pin" length="short" direction="pwr" rot="R180"/>
+<wire x1="-15.24" y1="25.4" x2="15.24" y2="25.4" width="0.254" layer="94"/>
+<wire x1="15.24" y1="25.4" x2="15.24" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-25.4" x2="-15.24" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-25.4" x2="-15.24" y2="25.4" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PIC16C610" prefix="IC">
@@ -6262,6 +6285,37 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <connect gate="G$1" pin="VIN" pad="P$13"/>
 <connect gate="G$1" pin="VMID" pad="P$14"/>
 <connect gate="G$1" pin="VOUT" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WM8524">
+<description>24-bit 192kHz stereo DAC with 2Vrms ground referenced line output. LJ, RJ, and I2S interface.</description>
+<gates>
+<gate name="G$1" symbol="WM8524" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SSOP16">
+<connects>
+<connect gate="G$1" pin="!MUTE" pad="11"/>
+<connect gate="G$1" pin="AGND" pad="13"/>
+<connect gate="G$1" pin="AIFMODE" pad="12"/>
+<connect gate="G$1" pin="AVDD" pad="15"/>
+<connect gate="G$1" pin="BCLK" pad="9"/>
+<connect gate="G$1" pin="CPCA" pad="5"/>
+<connect gate="G$1" pin="CPCB" pad="3"/>
+<connect gate="G$1" pin="CPVOUTN" pad="2"/>
+<connect gate="G$1" pin="DACDAT" pad="7"/>
+<connect gate="G$1" pin="LINEGND" pad="4"/>
+<connect gate="G$1" pin="LINEVDD" pad="6"/>
+<connect gate="G$1" pin="LINEVOUTL" pad="1"/>
+<connect gate="G$1" pin="LINEVOUTR" pad="16"/>
+<connect gate="G$1" pin="LRCLK" pad="8"/>
+<connect gate="G$1" pin="MCLK" pad="10"/>
+<connect gate="G$1" pin="VMID" pad="14"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -246,3 +246,7 @@
    WM8524
           24-bit 192kHz stereo DAC with 2Vrms ground referenced line
           output. LJ, RJ, and I2S interface.
+
+   ISD16XXBSY
+          Single-message single-chip 6.6- to 40-second voice record and
+          playback device.

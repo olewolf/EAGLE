@@ -4336,6 +4336,31 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <wire x1="15.24" y1="-25.4" x2="-15.24" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-25.4" x2="-15.24" y2="25.4" width="0.254" layer="94"/>
 </symbol>
+<symbol name="ISD16XXBSY">
+<description>Single-message single-chip 6.6- to 40-second voice record and playback device.</description>
+<pin name="ROSC" x="-20.32" y="15.24" visible="pin" length="short" direction="in"/>
+<pin name="MIC+" x="-20.32" y="10.16" visible="pin" length="short" direction="in"/>
+<pin name="MIC-" x="-20.32" y="5.08" visible="pin" length="short" direction="in"/>
+<pin name="AGC" x="-20.32" y="0" visible="pin" length="short" direction="pas"/>
+<pin name="AUD" x="20.32" y="15.24" visible="pin" length="short" direction="out" rot="R180"/>
+<pin name="SP+" x="20.32" y="10.16" visible="pin" length="short" direction="out" rot="R180"/>
+<pin name="SP-" x="20.32" y="5.08" visible="pin" length="short" direction="out" rot="R180"/>
+<pin name="!REC" x="-20.32" y="-5.08" visible="pin" length="short" direction="in"/>
+<pin name="!PLAYE" x="-20.32" y="-10.16" visible="pin" length="short" direction="in"/>
+<pin name="!PLAYL" x="-20.32" y="-15.24" visible="pin" length="short" direction="in"/>
+<pin name="!LED" x="20.32" y="-5.08" visible="pin" length="short" direction="out" rot="R180"/>
+<wire x1="-17.78" y1="20.32" x2="17.78" y2="20.32" width="0.254" layer="94"/>
+<wire x1="17.78" y1="20.32" x2="17.78" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-20.32" x2="-17.78" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-20.32" x2="-17.78" y2="20.32" width="0.254" layer="94"/>
+<pin name="VCCA,VCCP" x="-5.08" y="22.86" visible="pin" length="short" direction="pwr" rot="R270"/>
+<pin name="VCCD" x="5.08" y="22.86" visible="pin" length="short" direction="pwr" rot="R270"/>
+<pin name="VSSA" x="-5.08" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="VSSD" x="5.08" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
+<text x="-5.08" y="2.54" size="1.778" layer="94">&gt;NAME</text>
+<text x="-5.08" y="0" size="1.778" layer="94">&gt;VALUE</text>
+<pin name="VSSP" x="0" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PIC16C610" prefix="IC">
@@ -6316,6 +6341,37 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <connect gate="G$1" pin="LRCLK" pad="8"/>
 <connect gate="G$1" pin="MCLK" pad="10"/>
 <connect gate="G$1" pin="VMID" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ISD16XXBSY" uservalue="yes">
+<description>Single-message single-chip 6.6- to 40-second voice record and playback device.</description>
+<gates>
+<gate name="G$1" symbol="ISD16XXBSY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO16">
+<connects>
+<connect gate="G$1" pin="!LED" pad="16"/>
+<connect gate="G$1" pin="!PLAYE" pad="3"/>
+<connect gate="G$1" pin="!PLAYL" pad="4"/>
+<connect gate="G$1" pin="!REC" pad="2"/>
+<connect gate="G$1" pin="AGC" pad="12"/>
+<connect gate="G$1" pin="AUD" pad="13"/>
+<connect gate="G$1" pin="MIC+" pad="6"/>
+<connect gate="G$1" pin="MIC-" pad="7"/>
+<connect gate="G$1" pin="ROSC" pad="14"/>
+<connect gate="G$1" pin="SP+" pad="11"/>
+<connect gate="G$1" pin="SP-" pad="8"/>
+<connect gate="G$1" pin="VCCA,VCCP" pad="10"/>
+<connect gate="G$1" pin="VCCD" pad="15"/>
+<connect gate="G$1" pin="VSSA" pad="5"/>
+<connect gate="G$1" pin="VSSD" pad="1"/>
+<connect gate="G$1" pin="VSSP" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>

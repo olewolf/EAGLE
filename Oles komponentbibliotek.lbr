@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -20,7 +20,7 @@
 <layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
 <layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -422,7 +422,7 @@ Source: RCA-4-117-01x.pdf</description>
 <pad name="GND" x="-0.11" y="-0.71" drill="1.2" diameter="2.1844" rot="R180"/>
 <wire x1="5.2954" y1="6.3378" x2="-5.5098" y2="6.3378" width="0.2032" layer="21"/>
 <text x="-7.62" y="-7.62" size="1.27" layer="21">&gt;NAME</text>
-<text x="1.905" y="1.905" size="1.27" layer="21">&gt;VALUE</text>
+<text x="-4.445" y="1.905" size="1.27" layer="21">&gt;VALUE</text>
 <wire x1="8.06" y1="0.44" x2="6.36" y2="0.44" width="0" layer="20"/>
 <wire x1="6.36" y1="0.44" x2="6.36" y2="-2.56" width="0" layer="20"/>
 <wire x1="6.36" y1="-2.56" x2="8.06" y2="-2.56" width="0" layer="20"/>
@@ -595,6 +595,8 @@ Source: RCA-4-117-01x.pdf</description>
 <vertex x="-3.81" y="-3.81"/>
 <vertex x="-3.81" y="3.81"/>
 </polygon>
+<text x="-2.54" y="-8.89" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.54" y="7.62" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="PCB_MATRIX_BUTTON">
 <pad name="P$1" x="-2.54" y="2.54" drill="0.8" diameter="1.9304" shape="octagon"/>
@@ -607,6 +609,8 @@ Source: RCA-4-117-01x.pdf</description>
 <wire x1="-3.81" y1="-3.81" x2="3.81" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="3.81" y1="-3.81" x2="3.81" y2="3.81" width="0.127" layer="21"/>
 <wire x1="3.81" y1="3.81" x2="-3.81" y2="3.81" width="0.127" layer="21"/>
+<text x="-2.54" y="-1.27" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-2.54" y="0" size="0.8128" layer="27">&gt;NAME</text>
 </package>
 <package name="DIODE-BRIDGE-ROUND-5.08">
 <pad name="P$1" x="-2.54" y="2.54" drill="0.9" shape="octagon"/>
@@ -615,6 +619,8 @@ Source: RCA-4-117-01x.pdf</description>
 <pad name="P$4" x="-2.54" y="-2.54" drill="0.9" shape="octagon"/>
 <wire x1="3.81" y1="-3.81" x2="3.81" y2="3.81" width="0.127" layer="21" curve="-270"/>
 <wire x1="3.81" y1="3.81" x2="3.81" y2="-3.81" width="0.127" layer="21"/>
+<text x="5.08" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="5.08" y="0.635" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="5-LEAD-TO220">
 <pad name="5" x="1.27" y="3.4036" drill="0.8" shape="long"/>
@@ -622,6 +628,8 @@ Source: RCA-4-117-01x.pdf</description>
 <pad name="4" x="-1.27" y="1.7018" drill="0.8" shape="long"/>
 <pad name="2" x="-1.27" y="-1.7018" drill="0.8" shape="long"/>
 <pad name="1" x="1.27" y="-3.4036" drill="0.8" shape="long"/>
+<text x="3.175" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="3.175" y="-0.635" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="NHD-C0216CIZ">
 <pad name="REST" x="-6.35" y="-2.54" drill="0.5" diameter="0.8128" shape="octagon" rot="R90"/>
@@ -922,6 +930,8 @@ TSOP Type II package</description>
 <vertex x="-12.7" y="5.461"/>
 <vertex x="-13.97" y="5.461"/>
 </polygon>
+<text x="-6.35" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.35" y="-1.27" size="1.27" layer="25">&gt;VALUE</text>
 </package>
 <package name="TSSOP14">
 <description>&lt;b&gt;Thin Shrink Small Outline Plastic 14&lt;/b&gt;</description>
@@ -1125,6 +1135,8 @@ TSOP Type II package</description>
 <wire x1="24.13" y1="11.43" x2="-24.13" y2="11.43" width="0.127" layer="21"/>
 <wire x1="-24.13" y1="11.43" x2="-24.13" y2="-10.16" width="0.127" layer="21"/>
 <wire x1="-24.13" y1="-10.16" x2="24.13" y2="-10.16" width="0.127" layer="21"/>
+<text x="-11.43" y="3.81" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-11.43" y="6.35" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="TSSOP28-THERMAL">
 <description>&lt;b&gt;Shrink Small Outline Package&lt;/b&gt;&lt;p&gt;
@@ -1167,7 +1179,7 @@ package type SS</description>
 <smd name="27" x="-3.575" y="3.625" dx="0.4" dy="1.5" layer="1"/>
 <smd name="28" x="-4.225" y="3.625" dx="0.4" dy="1.5" layer="1"/>
 <text x="-5.476" y="-2.6299" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
-<text x="-3.8999" y="-0.68" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="6.395" y="-1.9949" size="0.8128" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 <rectangle x1="-4.4028" y1="-3.937" x2="-4.0472" y2="-2.6416" layer="51"/>
 <rectangle x1="-3.7529" y1="-3.937" x2="-3.3973" y2="-2.6416" layer="51"/>
 <rectangle x1="-3.1029" y1="-3.937" x2="-2.7473" y2="-2.6416" layer="51"/>
@@ -1220,6 +1232,8 @@ package type SS</description>
 <wire x1="-11" y1="10" x2="11" y2="10" width="0.127" layer="21"/>
 <wire x1="11" y1="10" x2="11" y2="-10.5" width="0.127" layer="21"/>
 <wire x1="-11" y1="-10.5" x2="11" y2="-10.5" width="0.127" layer="21"/>
+<text x="-5.08" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-5.08" y="0" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="CAMERACUBE">
 <smd name="A$1" x="-1" y="1" dx="0.3048" dy="0.3048" layer="1" roundness="100" rot="R90"/>
@@ -1247,6 +1261,8 @@ package type SS</description>
 <wire x1="1" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
 <wire x1="-1.143" y1="1.4605" x2="-1.4605" y2="1.143" width="0.127" layer="21" curve="-48.814075"/>
+<text x="-1.905" y="-3.81" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-1.905" y="-2.54" size="0.8128" layer="25">&gt;NAME</text>
 </package>
 <package name="PLASTIC-MSOP-12">
 <smd name="P$3" x="0" y="-2" dx="0.8128" dy="0.4064" layer="1" rot="R90"/>
@@ -1293,6 +1309,8 @@ package type SS</description>
 <pad name="P$1" x="-1.27" y="0" drill="0.8"/>
 <wire x1="-1.905" y1="-1.016" x2="1.905" y2="-1.016" width="0.127" layer="21"/>
 <wire x1="-1.905" y1="-1.016" x2="1.905" y2="-1.016" width="0.127" layer="21" curve="-247.380135"/>
+<text x="-2.54" y="3.175" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.016" layer="27">&gt;VALUE</text>
 </package>
 <package name="2XSWITCH">
 <description>&lt;b&gt;TINY SWITCH&lt;/b&gt;&lt;p&gt;
@@ -1336,6 +1354,8 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <vertex x="6.35" y="-7.62"/>
 <vertex x="6.35" y="5.08"/>
 </polygon>
+<text x="-11.43" y="8.89" size="1.27" layer="25">&gt;NAME</text>
+<text x="-11.43" y="6.35" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="SSOP20">
 <wire x1="-3.25" y1="-2.6" x2="3.25" y2="-2.6" width="0.2032" layer="21"/>
@@ -1413,6 +1433,8 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-12.7" y1="-3.81" x2="-12.7" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-12.7" y1="3.81" x2="-12.7" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-12.7" y1="-1.27" x2="-12.7" y2="1.27" width="0.127" layer="21" curve="180"/>
+<text x="-13.335" y="-3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="2.54" y="0.635" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
 </package>
 <package name="HEADER_8X2">
 <description>8x2 pin header with 0.1" pin distances.</description>
@@ -1436,6 +1458,8 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="11.43" y1="3.175" x2="11.43" y2="-3.175" width="0.127" layer="21"/>
 <wire x1="11.43" y1="-3.175" x2="-11.43" y2="-3.175" width="0.127" layer="21"/>
 <wire x1="-11.43" y1="-3.175" x2="-11.43" y2="3.175" width="0.127" layer="21"/>
+<text x="-10.16" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="3.81" y="3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="JD-T1800-CONNECTOR14">
 <description>JD-T1800 (TFT177T027FPC) LCD display</description>
@@ -1471,6 +1495,8 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-1" y1="10" x2="1" y2="10" width="0.127" layer="25"/>
 <wire x1="1" y1="10" x2="1" y2="-10" width="0.127" layer="25"/>
 <rectangle x1="-56" y1="-16" x2="-19" y2="16" layer="25"/>
+<text x="-16.51" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-16.51" y="0" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="DIODE-12.70">
 <description>Diode with terminals spaced 12.70 mm apart</description>
@@ -1485,6 +1511,8 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-2.286" y1="-0.762" x2="-2.286" y2="0" width="0.127" layer="21"/>
 <wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.127" layer="21"/>
 <rectangle x1="0" y1="-0.762" x2="0.508" y2="0.762" layer="21"/>
+<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.81" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="XBEE-S2C-SMT-TESTHARNESS">
 <smd name="GND" x="-8" y="-25" dx="1.25" dy="30" layer="1"/>
@@ -1587,6 +1615,8 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <smd name="23" x="21.9964" y="4.0132" dx="3.048" dy="1.524" layer="1" roundness="100"/>
 <smd name="22" x="21.9964" y="2.0066" dx="3.048" dy="1.524" layer="1" roundness="100"/>
 <rectangle x1="13.9954" y1="24.511" x2="20.4724" y2="26.797" layer="39"/>
+<text x="6.35" y="10.16" size="1.27" layer="27">&gt;VALUE</text>
+<text x="6.35" y="12.7" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="1140-103K">
 <pad name="P$1" x="-13.97" y="0" drill="0.8" diameter="2.1844"/>
@@ -1816,8 +1846,8 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="1.4986" y1="1.1938" x2="0.8636" y2="1.1938" width="0" layer="51"/>
 <wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0" layer="51" curve="-180"/>
 <text x="-2.1082" y="1.3716" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<text x="-3.4544" y="2.54" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="-4.445" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-3.4544" y="2.54" size="1.016" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-3.175" size="1.016" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="SOT143">
 <smd name="P$1" x="-2.413" y="0" dx="1.397" dy="1.2192" layer="1" rot="R90"/>
@@ -1831,6 +1861,8 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="-3.81" y1="0.9525" x2="-3.81" y2="1.5875" width="0.127" layer="112"/>
 <wire x1="-3.81" y1="1.5875" x2="-3.81" y2="2.54" width="0.127" layer="112"/>
 <wire x1="-3.81" y1="1.5875" x2="-3.81" y2="0.9525" width="0.127" layer="112" curve="-180"/>
+<text x="-3.81" y="-2.54" size="1.016" layer="27">&gt;VALUE</text>
+<text x="-3.81" y="3.81" size="1.016" layer="25">&gt;NAME</text>
 </package>
 <package name="DUAL-USB-A-FEMALE">
 <description>Dual USB A connector (female)</description>
@@ -1852,6 +1884,8 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="13.335" y1="6.35" x2="-3.81" y2="6.35" width="0.127" layer="21"/>
 <wire x1="13.335" y1="-6.6675" x2="13.335" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="13.335" y1="6.35" x2="13.335" y2="6.6675" width="0.127" layer="21"/>
+<text x="4.445" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<text x="4.445" y="-0.635" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="TO126AV">
 <description>&lt;b&gt;Molded Package&lt;/b&gt;&lt;p&gt;
@@ -1878,6 +1912,8 @@ grid 2.54 mm</description>
 <wire x1="2.54" y1="-0.635" x2="-2.54" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="-0.635" x2="-2.54" y2="0.635" width="0.127" layer="21"/>
 <wire x1="0.635" y1="0.635" x2="-0.635" y2="0.635" width="0.127" layer="21" curve="-90"/>
+<text x="-3.81" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="MOLEX_12152">
 <description>USB A male SMT connector.</description>
@@ -1904,6 +1940,8 @@ grid 2.54 mm</description>
 <wire x1="-15.24" y1="-2.95275" x2="-13.55725" y2="-2.95275" width="0.127" layer="21"/>
 <wire x1="-13.55725" y1="-2.95275" x2="-13.55725" y2="-0.41275" width="0.127" layer="21"/>
 <wire x1="-13.55725" y1="-0.41275" x2="-15.24" y2="-0.41275" width="0.127" layer="21"/>
+<text x="-11.43" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-11.43" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="ANTENNA_50_OHM_PCB">
 <description>50 Ω impedance PCB wire antenna trace</description>
@@ -2015,6 +2053,13 @@ grid 2.54 mm</description>
 <smd name="P$4" x="0.635" y="1.27" dx="0.8128" dy="0.4064" layer="1" rot="R90"/>
 <smd name="P$5" x="0" y="1.27" dx="0.8128" dy="0.4064" layer="1" rot="R90"/>
 <smd name="P$6" x="-0.635" y="1.27" dx="0.8128" dy="0.4064" layer="1" rot="R90"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
+<circle x="-0.635" y="-0.635" radius="0.635" width="0.127" layer="21"/>
+<text x="-1.905" y="-2.54" size="1.016" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.175" y="-2.54" size="1.016" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 <package name="MSOP8">
 <description>10-Lead Mini Small Outline Package [MSOP]</description>
@@ -2067,6 +2112,8 @@ grid 2.54 mm</description>
 <vertex x="3.175" y="-1.905"/>
 </polygon>
 <pad name="P$17" x="0.635" y="0.635" drill="1.4" diameter="3.81" shape="square" rot="R90"/>
+<text x="-2.54" y="-6.35" size="1.016" layer="27">&gt;VALUE</text>
+<text x="-2.54" y="6.35" size="1.016" layer="25">&gt;NAME</text>
 </package>
 <package name="SD-CARD">
 <smd name="P$1" x="13" y="-9.5" dx="2" dy="0.6" layer="1"/>
@@ -2101,6 +2148,8 @@ grid 2.54 mm</description>
 <wire x1="-1.5" y1="-10.5" x2="-7.5" y2="-12.5" width="0.127" layer="21"/>
 <wire x1="-7.5" y1="-12.5" x2="-7.5" y2="-14.5" width="0.127" layer="21"/>
 <wire x1="-7.5" y1="-14.5" x2="-13" y2="-14.5" width="0.127" layer="21"/>
+<text x="2.54" y="-5.08" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-5.08" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 <package name="SOT23-3">
 <wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
@@ -2118,29 +2167,31 @@ grid 2.54 mm</description>
 <text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 <package name="DFN10-SINK">
-<smd name="P$1" x="-0.94" y="-1.49" dx="0.7" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$2" x="-0.47" y="-1.49" dx="0.7" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$3" x="0" y="-1.49" dx="0.7" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$4" x="0.47" y="-1.49" dx="0.7" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$5" x="0.94" y="-1.49" dx="0.7" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$6" x="0.94" y="1.34" dx="0.7" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$7" x="0.47" y="1.34" dx="0.7" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$8" x="0" y="1.34" dx="0.7" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$9" x="-0.47" y="1.34" dx="0.7" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$10" x="-0.94" y="1.34" dx="0.7" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$11" x="0" y="0" dx="1.27" dy="0.635" layer="1"/>
+<smd name="P$1" x="-0.94" y="-1.99" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$2" x="-0.47" y="-1.99" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$3" x="0" y="-1.99" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$4" x="0.47" y="-1.99" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$5" x="0.94" y="-1.99" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$6" x="0.94" y="2.14" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$7" x="0.47" y="2.14" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$8" x="0" y="2.14" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$9" x="-0.47" y="2.14" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$10" x="-0.94" y="2.14" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$11" x="0" y="0" dx="1.9" dy="1.9" layer="1"/>
 <polygon width="0.127" layer="1">
-<vertex x="-1.2" y="-0.7"/>
-<vertex x="-1.2" y="0.75"/>
-<vertex x="1.2" y="0.75"/>
-<vertex x="1.2" y="-0.9"/>
-<vertex x="-1" y="-0.9"/>
+<vertex x="-1.1" y="-0.7"/>
+<vertex x="-1.1" y="1.15"/>
+<vertex x="1.1" y="1.15"/>
+<vertex x="1.1" y="-1"/>
+<vertex x="-0.8" y="-1"/>
 </polygon>
-<wire x1="-1.4" y1="1" x2="1.4" y2="1" width="0.127" layer="21"/>
-<wire x1="1.4" y1="1" x2="1.4" y2="-1.15" width="0.127" layer="21"/>
-<wire x1="1.4" y1="-1.15" x2="-1.4" y2="-1.15" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="-1.15" x2="-1.4" y2="1" width="0.127" layer="21"/>
-<circle x="-0.85" y="-0.6" radius="0.291546875" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="1.5" x2="1.4" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.4" y1="1.5" x2="1.4" y2="-1.35" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-1.35" x2="-1.4" y2="-1.35" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-1.35" x2="-1.4" y2="1.5" width="0.127" layer="21"/>
+<circle x="-0.85" y="-0.8" radius="0.291546875" width="0.127" layer="21"/>
+<text x="1.905" y="-1.27" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="1.905" y="0" size="0.8128" layer="25">&gt;NAME</text>
 </package>
 <package name="MSOP10-SINK">
 <smd name="P$1" x="-1" y="-2.1" dx="0.305" dy="0.889" layer="1"/>
@@ -2154,6 +2205,8 @@ grid 2.54 mm</description>
 <smd name="P$9" x="-0.5" y="1.9" dx="0.305" dy="0.889" layer="1"/>
 <smd name="P$10" x="-1" y="1.9" dx="0.305" dy="0.889" layer="1"/>
 <rectangle x1="-0.95" y1="-0.95" x2="0.95" y2="0.75" layer="1"/>
+<text x="-1.905" y="-1.905" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
+<text x="2.54" y="-1.905" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 <package name="TDFN-EP-10">
 <description>10 pin TDFN, exposed pad</description>
@@ -2178,6 +2231,8 @@ grid 2.54 mm</description>
 <wire x1="1.8" y1="-1.3" x2="-1.85" y2="-1.3" width="0" layer="21"/>
 <wire x1="-1.85" y1="-1.3" x2="-1.85" y2="1.3" width="0" layer="21"/>
 <circle x="-1.2" y="0.8" radius="0.282840625" width="0.05" layer="21"/>
+<text x="-1.905" y="1.905" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.016" layer="27">&gt;VALUE</text>
 </package>
 <package name="DFN-EP-10">
 <description>DDB package 10-Lead Plastic DFN (3mm × 2mm) with exposed pad</description>
@@ -2197,6 +2252,8 @@ grid 2.54 mm</description>
 <wire x1="1.2" y1="-1.35" x2="-1.2" y2="-1.35" width="0.1" layer="21"/>
 <wire x1="-1.2" y1="-1.35" x2="-1.2" y2="1.2" width="0.1" layer="21"/>
 <circle x="-0.7" y="-0.9" radius="0.22360625" width="0.1" layer="21"/>
+<text x="-1.905" y="1.905" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
 <package name="QFN-16">
 <description>16-Lead Plastic QFN (3mm × 3mm) with exposed pad</description>
@@ -2222,6 +2279,8 @@ grid 2.54 mm</description>
 <wire x1="-1.75" y1="-1.8" x2="1.75" y2="-1.8" width="0.1" layer="21"/>
 <wire x1="1.75" y1="-1.8" x2="1.75" y2="1.7" width="0.1" layer="21"/>
 <smd name="P$17" x="0" y="-0.05" dx="1.45" dy="1.45" layer="1"/>
+<text x="-1.905" y="-3.175" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-1.905" y="2.54" size="0.8128" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -4384,31 +4443,6 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <text x="-15.24" y="-27.94" size="1.778" layer="95">&gt;NAME</text>
 <text x="15.24" y="-27.94" size="1.778" layer="96" rot="MR0">&gt;VALUE</text>
 </symbol>
-<symbol name="ISD16XXBSY">
-<description>Single-message single-chip 6.6- to 40-second voice record and playback device.</description>
-<pin name="ROSC" x="-20.32" y="15.24" visible="pin" length="short" direction="in"/>
-<pin name="MIC+" x="-20.32" y="10.16" visible="pin" length="short" direction="in"/>
-<pin name="MIC-" x="-20.32" y="5.08" visible="pin" length="short" direction="in"/>
-<pin name="AGC" x="-20.32" y="0" visible="pin" length="short" direction="pas"/>
-<pin name="AUD" x="20.32" y="15.24" visible="pin" length="short" direction="out" rot="R180"/>
-<pin name="SP+" x="20.32" y="10.16" visible="pin" length="short" direction="out" rot="R180"/>
-<pin name="SP-" x="20.32" y="5.08" visible="pin" length="short" direction="out" rot="R180"/>
-<pin name="!REC" x="-20.32" y="-5.08" visible="pin" length="short" direction="in"/>
-<pin name="!PLAYE" x="-20.32" y="-10.16" visible="pin" length="short" direction="in"/>
-<pin name="!PLAYL" x="-20.32" y="-15.24" visible="pin" length="short" direction="in"/>
-<pin name="!LED" x="20.32" y="-5.08" visible="pin" length="short" direction="out" rot="R180"/>
-<wire x1="-17.78" y1="20.32" x2="17.78" y2="20.32" width="0.254" layer="94"/>
-<wire x1="17.78" y1="20.32" x2="17.78" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-20.32" x2="-17.78" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-20.32" x2="-17.78" y2="20.32" width="0.254" layer="94"/>
-<pin name="VCCA,VCCP" x="-5.08" y="22.86" visible="pin" length="short" direction="pwr" rot="R270"/>
-<pin name="VCCD" x="5.08" y="22.86" visible="pin" length="short" direction="pwr" rot="R270"/>
-<pin name="VSSA" x="-5.08" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
-<pin name="VSSD" x="5.08" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
-<text x="-5.08" y="2.54" size="1.778" layer="94">&gt;NAME</text>
-<text x="-5.08" y="0" size="1.778" layer="94">&gt;VALUE</text>
-<pin name="VSSP" x="0" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PIC16C610" prefix="IC">
@@ -6389,37 +6423,6 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <connect gate="G$1" pin="LRCLK" pad="8"/>
 <connect gate="G$1" pin="MCLK" pad="10"/>
 <connect gate="G$1" pin="VMID" pad="14"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ISD16XXBSY" uservalue="yes">
-<description>Single-message single-chip 6.6- to 40-second voice record and playback device.</description>
-<gates>
-<gate name="G$1" symbol="ISD16XXBSY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SO16">
-<connects>
-<connect gate="G$1" pin="!LED" pad="16"/>
-<connect gate="G$1" pin="!PLAYE" pad="3"/>
-<connect gate="G$1" pin="!PLAYL" pad="4"/>
-<connect gate="G$1" pin="!REC" pad="2"/>
-<connect gate="G$1" pin="AGC" pad="12"/>
-<connect gate="G$1" pin="AUD" pad="13"/>
-<connect gate="G$1" pin="MIC+" pad="6"/>
-<connect gate="G$1" pin="MIC-" pad="7"/>
-<connect gate="G$1" pin="ROSC" pad="14"/>
-<connect gate="G$1" pin="SP+" pad="11"/>
-<connect gate="G$1" pin="SP-" pad="8"/>
-<connect gate="G$1" pin="VCCA,VCCP" pad="10"/>
-<connect gate="G$1" pin="VCCD" pad="15"/>
-<connect gate="G$1" pin="VSSA" pad="5"/>
-<connect gate="G$1" pin="VSSD" pad="1"/>
-<connect gate="G$1" pin="VSSP" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>

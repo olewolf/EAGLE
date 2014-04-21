@@ -4530,6 +4530,37 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <wire x1="-3.048" y1="6.604" x2="-4.064" y2="7.62" width="0.254" layer="95" curve="-90"/>
 <wire x1="-2.286" y1="7.62" x2="-3.302" y2="6.604" width="0.254" layer="95" curve="-90"/>
 </symbol>
+<symbol name="AD595">
+<description>Thermocouple amplifier with cold junction compensation.</description>
+<pin name="IN-" x="-15.24" y="7.62" visible="off" length="short" direction="in"/>
+<pin name="IN+" x="-15.24" y="12.7" visible="off" length="short" direction="in"/>
+<pin name="-ALM" x="15.24" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="+ALM" x="15.24" y="2.54" visible="off" length="short" rot="R180"/>
+<text x="10.16" y="2.54" size="1.778" layer="94" rot="R180" align="center-left">+ALM</text>
+<text x="10.16" y="-2.54" size="1.778" layer="94" rot="R180" align="center-left">-ALM</text>
+<text x="-10.16" y="12.7" size="1.778" layer="94" align="center-left">+IN</text>
+<text x="-10.16" y="7.62" size="1.778" layer="94" align="center-left">-IN</text>
+<pin name="C+" x="-15.24" y="2.54" visible="off" length="short" direction="in"/>
+<pin name="C-" x="-15.24" y="-2.54" visible="off" length="short" direction="in"/>
+<text x="-10.16" y="2.54" size="1.778" layer="94" rot="R180" align="center-right">+C</text>
+<text x="-10.16" y="-2.54" size="1.778" layer="94" rot="R180" align="center-right">-C</text>
+<pin name="T+" x="-15.24" y="-7.62" visible="off" length="short" direction="in"/>
+<pin name="T-" x="-15.24" y="-12.7" visible="off" length="short" direction="in"/>
+<text x="-10.16" y="-7.62" size="1.778" layer="94" rot="R180" align="center-right">+T</text>
+<text x="-10.16" y="-12.7" size="1.778" layer="94" rot="R180" align="center-right">-T</text>
+<pin name="COMP" x="15.24" y="12.7" visible="off" length="short" direction="in" rot="R180"/>
+<text x="10.16" y="12.7" size="1.778" layer="94" align="center-right">COMP</text>
+<pin name="VO" x="15.24" y="7.62" visible="off" length="short" direction="out" rot="R180"/>
+<text x="10.16" y="7.62" size="1.778" layer="94" align="center-right">Vo</text>
+<pin name="FB" x="15.24" y="-7.62" visible="off" length="short" direction="in" rot="R180"/>
+<text x="10.16" y="-7.62" size="1.778" layer="94" align="center-right">FB</text>
+<wire x1="-12.7" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-17.78" x2="-12.7" y2="17.78" width="0.254" layer="94"/>
+<pin name="COM" x="15.24" y="-12.7" visible="off" length="short" direction="in" rot="R180"/>
+<text x="10.16" y="-12.7" size="1.778" layer="94" align="center-right">COM</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PIC16C610" prefix="IC">
@@ -6586,6 +6617,36 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <connect gate="G$1" pin="-VO" pad="P$14"/>
 <connect gate="G$1" pin="L" pad="P$3"/>
 <connect gate="G$1" pin="N" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AD595">
+<description>Thermocouple amplifier with cold junction compensation.</description>
+<gates>
+<gate name="G$1" symbol="AD595" x="0" y="0"/>
+<gate name="G$2" symbol="PWRN" x="-33.02" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL14">
+<connects>
+<connect gate="G$1" pin="+ALM" pad="12"/>
+<connect gate="G$1" pin="-ALM" pad="13"/>
+<connect gate="G$1" pin="C+" pad="2"/>
+<connect gate="G$1" pin="C-" pad="6"/>
+<connect gate="G$1" pin="COM" pad="4"/>
+<connect gate="G$1" pin="COMP" pad="10"/>
+<connect gate="G$1" pin="FB" pad="8"/>
+<connect gate="G$1" pin="IN+" pad="1"/>
+<connect gate="G$1" pin="IN-" pad="14"/>
+<connect gate="G$1" pin="T+" pad="3"/>
+<connect gate="G$1" pin="T-" pad="5"/>
+<connect gate="G$1" pin="VO" pad="9"/>
+<connect gate="G$2" pin="GND" pad="7"/>
+<connect gate="G$2" pin="VCC" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>

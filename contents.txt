@@ -257,3 +257,6 @@
    PBK-5-XX
           PCB mountable 100-240V AC to 3.3, 5, 9, 12, 15, or 24 V DC, 5
           Watt power supply.
+
+   AD595
+          Thermocouple amplifier with cold junction compensation.

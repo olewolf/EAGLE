@@ -260,3 +260,6 @@
 
    AD595
           Thermocouple amplifier with cold junction compensation.
+
+   PCN-105D3MHZ
+          Single contact 5V relay.

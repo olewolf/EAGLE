@@ -263,3 +263,9 @@
 
    PCN-105D3MHZ
           Single contact 5V relay.
+
+   23LCXXXX
+          SPI Serial SRAM with SDI and SQI Interface
+
+   MCP79F2X
+          SPI Real-Time Clock Calendar with Battery Switchover

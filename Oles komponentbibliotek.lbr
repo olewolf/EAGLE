@@ -2410,32 +2410,27 @@ grid 2.54 mm</description>
 <text x="-1.905" y="-1.905" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
 <text x="2.54" y="-1.905" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
 </package>
-<package name="DFN-10-SINK">
-<smd name="P$11" x="0" y="0" dx="1.9" dy="1.9" layer="1"/>
-<polygon width="0.127" layer="1">
-<vertex x="-1.1" y="-0.7"/>
-<vertex x="-1.1" y="1.15"/>
-<vertex x="1.1" y="1.15"/>
-<vertex x="1.1" y="-1"/>
-<vertex x="-0.8" y="-1"/>
-</polygon>
-<wire x1="-1.4" y1="1.5" x2="1.4" y2="1.5" width="0.127" layer="21"/>
-<wire x1="1.4" y1="1.5" x2="1.4" y2="-1.35" width="0.127" layer="21"/>
-<wire x1="1.4" y1="-1.35" x2="-1.4" y2="-1.35" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="-1.35" x2="-1.4" y2="1.5" width="0.127" layer="21"/>
-<circle x="-0.85" y="-0.8" radius="0.291546875" width="0.127" layer="21"/>
-<text x="1.905" y="-1.27" size="0.8128" layer="27">&gt;VALUE</text>
-<text x="1.905" y="0" size="0.8128" layer="25">&gt;NAME</text>
-<smd name="P$1" x="-1" y="-2" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$2" x="-0.5" y="-2" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$3" x="0" y="-2" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$4" x="0.5" y="-2" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$5" x="1" y="-2" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$6" x="1" y="2" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$7" x="0.5" y="2" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$8" x="0" y="2" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$9" x="-0.5" y="2" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$10" x="-1" y="2" dx="1" dy="0.3" layer="1" rot="R90"/>
+<package name="MSOP12-SINK">
+<smd name="P$1" x="-1" y="-2.1" dx="0.305" dy="0.889" layer="1"/>
+<smd name="P$2" x="-0.5" y="-2.1" dx="0.305" dy="0.889" layer="1"/>
+<smd name="P$3" x="0" y="-2.1" dx="0.305" dy="0.889" layer="1"/>
+<smd name="P$4" x="0.5" y="-2.1" dx="0.305" dy="0.889" layer="1"/>
+<smd name="P$5" x="1" y="-2.1" dx="0.305" dy="0.889" layer="1"/>
+<smd name="P$6" x="1.5" y="-2.1" dx="0.305" dy="0.889" layer="1"/>
+<smd name="P$7" x="1.5" y="1.9" dx="0.305" dy="0.889" layer="1"/>
+<smd name="P$8" x="1" y="1.9" dx="0.305" dy="0.889" layer="1"/>
+<smd name="P$9" x="0.5" y="1.9" dx="0.305" dy="0.889" layer="1"/>
+<smd name="P$10" x="0" y="1.9" dx="0.305" dy="0.889" layer="1"/>
+<text x="-1.905" y="-1.905" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.29" y="-2.155" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
+<smd name="P$13" x="0.25" y="-0.1" dx="3" dy="1.75" layer="1"/>
+<wire x1="-1.5" y1="1.25" x2="2" y2="1.25" width="0.127" layer="21"/>
+<wire x1="2" y1="1.25" x2="2" y2="-1.4375" width="0.127" layer="21"/>
+<wire x1="2" y1="-1.4375" x2="-1.5" y2="-1.4375" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.4375" x2="-1.5" y2="1.25" width="0.127" layer="21"/>
+<circle x="-1.1875" y="-1.125" radius="0.197640625" width="0.127" layer="21"/>
+<smd name="P$11" x="-0.5" y="1.9" dx="0.305" dy="0.889" layer="1"/>
+<smd name="P$12" x="-1" y="1.9" dx="0.305" dy="0.889" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -6592,19 +6587,19 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <gate name="G$1" symbol="LTC3127" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DFN10-SINK">
+<device name="" package="MSOP12-SINK">
 <connects>
-<connect gate="G$1" pin="!SHDN" pad="Q3"/>
-<connect gate="G$1" pin="FB" pad="Q7"/>
-<connect gate="G$1" pin="MODE" pad="Q4"/>
-<connect gate="G$1" pin="PGND" pad="P$11"/>
-<connect gate="G$1" pin="PROG" pad="Q5"/>
-<connect gate="G$1" pin="SGND" pad="Q6"/>
-<connect gate="G$1" pin="SW1" pad="Q1"/>
-<connect gate="G$1" pin="SW2" pad="Q10"/>
-<connect gate="G$1" pin="VC" pad="Q8"/>
-<connect gate="G$1" pin="VIN" pad="Q2"/>
-<connect gate="G$1" pin="VOUT" pad="Q9"/>
+<connect gate="G$1" pin="!SHDN" pad="P$4"/>
+<connect gate="G$1" pin="FB" pad="P$8"/>
+<connect gate="G$1" pin="MODE" pad="P$5"/>
+<connect gate="G$1" pin="PGND" pad="P$1 P$12 P$13"/>
+<connect gate="G$1" pin="PROG" pad="P$6"/>
+<connect gate="G$1" pin="SGND" pad="P$7"/>
+<connect gate="G$1" pin="SW1" pad="P$2"/>
+<connect gate="G$1" pin="SW2" pad="P$11"/>
+<connect gate="G$1" pin="VC" pad="P$9"/>
+<connect gate="G$1" pin="VIN" pad="P$3"/>
+<connect gate="G$1" pin="VOUT" pad="P$10"/>
 </connects>
 <technologies>
 <technology name=""/>

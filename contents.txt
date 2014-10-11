@@ -272,3 +272,5 @@
 
    WM8731
           Low power stereo CODEC with an integrated headphone driver.
+
+   XBEE-S2C

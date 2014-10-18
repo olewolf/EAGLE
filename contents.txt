@@ -274,3 +274,6 @@
           Low power stereo CODEC with an integrated headphone driver.
 
    XBEE-S2C
+
+   NH-14
+          NH-14 Nixie tube

@@ -277,3 +277,7 @@
 
    NH-14
           NH-14 Nixie tube
+
+   SMBJXXA
+          Littelfuse Transient Voltage Suppression (TVS) Diodes SMBJ
+          Series Surface Mount – 600W

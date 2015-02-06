@@ -1,3 +1,7 @@
+   SMBJXXA
+          Littelfuse Transient Voltage Suppression (TVS) Diodes SMBJ
+          Series Surface Mount – 600W
+
    PIC16C610
           EPROM-Based 8-Bit CMOS Microcontrollers
 

@@ -278,6 +278,5 @@
    NH-14
           NH-14 Nixie tube
 
-   SMBJXXA
-          Littelfuse Transient Voltage Suppression (TVS) Diodes SMBJ
-          Series Surface Mount – 600W
+   ELC-12D102E
+          ELC-12D102E fixed inductor 1.78A

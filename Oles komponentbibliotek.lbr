@@ -2567,6 +2567,22 @@ grid 2.54 mm</description>
 <text x="-3.175" y="1.905" size="1.27" layer="21">&gt;NAME</text>
 <text x="-3.175" y="-3.175" size="1.27" layer="21">&gt;VALUE</text>
 </package>
+<package name="VISHAY-160-CLA">
+<description>Vishay 160 CLA electrolytic capacitor</description>
+<smd name="P$1" x="0" y="4.92" dx="5" dy="4.2" layer="1" rot="R180"/>
+<smd name="P$2" x="0" y="-5.016" dx="5" dy="4.2" layer="1" rot="R180"/>
+<smd name="CATHODE" x="-5.15" y="0" dx="6.3" dy="2.5" layer="1" rot="R180"/>
+<smd name="ANODE" x="5.23" y="0" dx="6.3" dy="2.5" layer="1" rot="R180"/>
+<wire x1="-6.5" y1="6.5" x2="-6.5" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="-6.5" x2="2.73" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="2.73" y1="-6.5" x2="6.5" y2="-2.754" width="0.127" layer="21"/>
+<wire x1="6.5" y1="-2.754" x2="6.5" y2="2.754" width="0.127" layer="21"/>
+<wire x1="6.5" y1="2.754" x2="2.754" y2="6.5" width="0.127" layer="21"/>
+<wire x1="2.754" y1="6.5" x2="-6.5" y2="6.5" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="6.465784375" width="0.127" layer="21"/>
+<text x="-2.5" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4" y="-2" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="PIC16C610">
@@ -4980,7 +4996,38 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-3.048" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="C-POL">
+<description>Polarized capacitor</description>
+<pin name="CATHODE" x="-7.62" y="0" visible="off" length="middle"/>
+<pin name="ANODE" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
+<wire x1="-2.032" y1="1.778" x2="-2.032" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="0" x2="-2.032" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.778" x2="-0.508" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="1.778" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-0.508" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-1.778" x2="-1.27" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.778" x2="-1.27" y2="1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+</symbol>
 </symbols>
+<deviceset name="VISHAY-160-CLA">
+<description>Vishay 160 CLA electrolytic capacitor</description>
+<gates>
+<gate name="G$1" symbol="C-POL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VISHAY-160-CLA">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="ANODE"/>
+<connect gate="G$1" pin="CATHODE" pad="CATHODE"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <devicesets>
 <deviceset name="SMBJXXA" prefix="D" uservalue="yes">
 <description>Littelfuse Transient Voltage Suppression (TVS) Diodes                                      

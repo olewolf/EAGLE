@@ -284,3 +284,6 @@
 
    ELC-12D102E
           ELC-12D102E fixed inductor 1.78A
+
+   VISHAY-160-CLA
+          Vishay 160 CLA electrolytic capacitor

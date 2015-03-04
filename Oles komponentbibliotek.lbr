@@ -6766,8 +6766,8 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <connect gate="G$1" pin="LBUCK" pad="16"/>
 <connect gate="G$1" pin="OK_HYST" pad="10"/>
 <connect gate="G$1" pin="OK_PROG" pad="11"/>
-<connect gate="G$1" pin="VBAT" pad="18"/>
-<connect gate="G$1" pin="VBAT_0V" pad="7"/>
+<connect gate="G$1" pin="VBAT" pad="7"/>
+<connect gate="G$1" pin="VBAT_0V" pad="18"/>
 <connect gate="G$1" pin="VBAT_OK" pad="13"/>
 <connect gate="G$1" pin="VIN_DC" pad="2"/>
 <connect gate="G$1" pin="VOC_SAMP" pad="3"/>
@@ -7083,9 +7083,9 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <device name="" package="PBK-5-XX">
 <connects>
 <connect gate="G$1" pin="+VCAP" pad="P$5"/>
-<connect gate="G$1" pin="+VO" pad="P$12"/>
+<connect gate="G$1" pin="+VO" pad="P$14"/>
 <connect gate="G$1" pin="-VCAP" pad="P$7"/>
-<connect gate="G$1" pin="-VO" pad="P$14"/>
+<connect gate="G$1" pin="-VO" pad="P$12"/>
 <connect gate="G$1" pin="L" pad="P$3"/>
 <connect gate="G$1" pin="N" pad="P$1"/>
 </connects>

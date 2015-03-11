@@ -287,3 +287,7 @@
 
    VISHAY-160-CLA
           Vishay 160 CLA electrolytic capacitor
+
+   SP3203
+          3V RS-232 Serial Transceiver with Logic Selector and 15kV ESD
+          Protection

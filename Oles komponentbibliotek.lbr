@@ -4127,7 +4127,11 @@ ID-2, ID-12, or ID20 125 kHz RFID readers from ID-Innovations .</description>
 <pin name="SPI_MISO/DIO15" x="-20.32" y="12.7" visible="pin" length="short" direction="out"/>
 <pin name="RF" x="22.86" y="12.7" visible="pin" length="short" rot="R180"/>
 <pin name="DEBUG/SWDIO1" x="22.86" y="-15.24" length="short" rot="R180"/>
-<pin name="SWCLK_1" x="22.86" y="-10.16" length="short" rot="R180"/>
+<pin name="SWCLK_1" x="22.86" y="-12.7" length="short" rot="R180"/>
+<pin name="JTDO" x="22.86" y="-5.08" length="short" direction="out" rot="R180"/>
+<pin name="JTDI" x="22.86" y="-2.54" length="short" direction="in" rot="R180"/>
+<pin name="JTMS" x="22.86" y="0" length="short" direction="in" rot="R180"/>
+<pin name="JTCK" x="22.86" y="2.54" length="short" direction="in" rot="R180"/>
 </symbol>
 <symbol name="MC33167">
 <pin name="COMP" x="-15.24" y="0" visible="pin" length="middle" direction="pas"/>
@@ -7315,6 +7319,10 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <connect gate="G$1" pin="DIO4" pad="24"/>
 <connect gate="G$1" pin="DOUT/DIO13" pad="3"/>
 <connect gate="G$1" pin="GND" pad="1 11 13 22 35"/>
+<connect gate="G$1" pin="JTCK" pad="18"/>
+<connect gate="G$1" pin="JTDI" pad="20"/>
+<connect gate="G$1" pin="JTDO" pad="19"/>
+<connect gate="G$1" pin="JTMS" pad="21"/>
 <connect gate="G$1" pin="ON/!SLEEP!/DIO9" pad="26"/>
 <connect gate="G$1" pin="PWM1/DIO11" pad="8"/>
 <connect gate="G$1" pin="RF" pad="36"/>
@@ -7349,6 +7357,10 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <connect gate="G$1" pin="DIO4" pad="P$24"/>
 <connect gate="G$1" pin="DOUT/DIO13" pad="P$3"/>
 <connect gate="G$1" pin="GND" pad="P$1 P$11 P$13 P$22"/>
+<connect gate="G$1" pin="JTCK" pad="P$18"/>
+<connect gate="G$1" pin="JTDI" pad="P$20"/>
+<connect gate="G$1" pin="JTDO" pad="P$19"/>
+<connect gate="G$1" pin="JTMS" pad="P$21"/>
 <connect gate="G$1" pin="ON/!SLEEP!/DIO9" pad="P$26"/>
 <connect gate="G$1" pin="PWM1/DIO11" pad="P$8"/>
 <connect gate="G$1" pin="RF" pad="P$36"/>

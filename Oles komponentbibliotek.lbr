@@ -2629,6 +2629,10 @@ grid 2.54 mm</description>
 <text x="0" y="-3" size="1.27" layer="21" align="center">XBEE SMT</text>
 <text x="-4" y="-7" size="1.27" layer="25">&gt;NAME</text>
 <text x="-4" y="-9" size="1.27" layer="25">&gt;VALUE</text>
+<smd name="P$35" x="10" y="13" dx="2" dy="1.2" layer="1"/>
+<smd name="P$36" x="10" y="15" dx="2" dy="1.2" layer="1"/>
+<smd name="P$37" x="10" y="17" dx="2" dy="1.2" layer="1"/>
+<rectangle x1="3" y1="9" x2="10" y2="11" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -7342,6 +7346,7 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <connect gate="G$1" pin="GND" pad="P$1 P$11 P$13 P$22"/>
 <connect gate="G$1" pin="ON/!SLEEP!/DIO9" pad="P$26"/>
 <connect gate="G$1" pin="PWM1/DIO11" pad="P$8"/>
+<connect gate="G$1" pin="RF" pad="P$36"/>
 <connect gate="G$1" pin="RSSI/PWM/DIO10" pad="P$7"/>
 <connect gate="G$1" pin="SPI_CLK/DIO18" pad="P$14"/>
 <connect gate="G$1" pin="SPI_MISO/DIO15" pad="P$17"/>

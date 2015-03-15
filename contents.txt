@@ -288,3 +288,6 @@
 
    VISHAY-160-CLA
           Vishay 160 CLA electrolytic capacitor
+
+   LNK30X
+          Energy-Efficient Off-Line Switcher IC

@@ -2634,23 +2634,17 @@ grid 2.54 mm</description>
 <smd name="P$37" x="10" y="17" dx="2" dy="1.2" layer="1"/>
 <rectangle x1="3" y1="9" x2="10" y2="11" layer="39"/>
 </package>
-<package name="DIL08-6">
-<description>DIL-08 without pin 6</description>
-<wire x1="5.08" y1="2.921" x2="-5.08" y2="2.921" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="2.921" x2="-5.08" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.921" x2="-5.08" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
-<pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="7" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="8" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="3" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="5" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<package name="RJ10">
+<pad name="P$1" x="1.27" y="-1.27" drill="0.8" shape="octagon"/>
+<pad name="P$2" x="-1.27" y="0" drill="0.8" shape="octagon"/>
+<pad name="P$3" x="1.27" y="1.27" drill="0.8" shape="octagon"/>
+<pad name="P$4" x="-1.27" y="2.54" drill="0.8" shape="octagon"/>
+<wire x1="-2.3" y1="6.3" x2="-2.3" y2="-4.7" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="6.3" x2="17.7" y2="6.3" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="-4.7" x2="17.7" y2="-4.7" width="0.127" layer="21"/>
+<wire x1="17.7" y1="6.3" x2="17.7" y2="-4.7" width="0.127" layer="21"/>
+<hole x="7.62" y="4.7625" drill="2.9972"/>
+<hole x="7.62" y="-3.175" drill="2.9972"/>
 </package>
 </packages>
 <symbols>
@@ -5089,20 +5083,15 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <text x="-3.302" y="-3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
 <text x="4.826" y="-6.858" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 </symbol>
-<symbol name="LNK30X">
-<description>Energy-Efficient Off-Line Switcher IC</description>
-<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-6.35" x2="10.16" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-6.35" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<pin name="DRAIN" x="-15.24" y="0" visible="off" length="middle" direction="pwr"/>
-<pin name="SOURCE" x="15.24" y="0" visible="off" length="middle" direction="pwr" rot="R180"/>
-<pin name="BYPASS" x="0" y="-11.43" visible="off" length="middle" direction="in" rot="R90"/>
-<pin name="FEEDBACK" x="15.24" y="5.08" visible="off" length="middle" direction="in" rot="R180"/>
-<text x="8.89" y="5.08" size="1.778" layer="94" align="center-right">Feedback</text>
-<text x="8.89" y="0" size="1.778" layer="94" align="center-right">Source</text>
-<text x="-8.89" y="0" size="1.778" layer="94" rot="R180" align="center-right">Drain</text>
-<text x="0" y="-5.08" size="1.778" layer="94" align="bottom-center">Bypass</text>
+<symbol name="RJ10">
+<pin name="P$1" x="-2.54" y="-2.54" visible="pin" length="short"/>
+<pin name="P$2" x="-2.54" y="0" visible="pin" length="short"/>
+<pin name="P$3" x="-2.54" y="2.54" visible="pin" length="short"/>
+<pin name="P$4" x="-2.54" y="5.08" visible="pin" length="short"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7473,18 +7462,18 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 </device>
 </devices>
 </deviceset>
-<deviceset name="LNK30X">
-<description>Energy-Efficient Off-Line Switcher IC</description>
+<deviceset name="RJ10">
+<description>RJ-10 connector</description>
 <gates>
-<gate name="G$1" symbol="LNK30X" x="0" y="0"/>
+<gate name="G$1" symbol="RJ10" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DIL08-6">
+<device name="" package="RJ10">
 <connects>
-<connect gate="G$1" pin="BYPASS" pad="3"/>
-<connect gate="G$1" pin="DRAIN" pad="5"/>
-<connect gate="G$1" pin="FEEDBACK" pad="4"/>
-<connect gate="G$1" pin="SOURCE" pad="1 2 7 8"/>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
 </connects>
 <technologies>
 <technology name=""/>

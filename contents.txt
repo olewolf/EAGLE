@@ -291,3 +291,13 @@
 
    RJ10
           RJ-10 connector
+
+   HMC5983
+          3-Axis Digital Compass IC
+
+          + I²C up to 3.4 MHz and SPI up to 8.0 MHz
+          + 220 Hz Maximum Output Rate
+          + 2.16 to 3.6V, 100 μA
+          + Temperature compensated data output and temperature output
+          + 12-Bit ADC achieves 2 milli-gauss field resolution
+          + Wide Magnetic Field Range (+/-8 Oe)

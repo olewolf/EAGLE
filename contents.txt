@@ -301,3 +301,6 @@
           + Temperature compensated data output and temperature output
           + 12-Bit ADC achieves 2 milli-gauss field resolution
           + Wide Magnetic Field Range (+/-8 Oe)
+
+   MCP1710
+          Ultra-Low Quiescent Current LDO Regulator

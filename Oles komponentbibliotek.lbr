@@ -293,41 +293,20 @@ Various components not found in the libraries shipped with Eagle or elsewhere on
 <package name="TQFN20-5X5">
 <description>&lt;b&gt;THIN QFN 20&lt;/b&gt; 5x5x0.75mm&lt;p&gt;
 Source: http://pdfserv.maxim-ic.com/package_dwgs/21-0140.PDF</description>
-<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.2032" layer="51"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.2032" layer="51"/>
-<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.2032" layer="51"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.2032" layer="51"/>
-<wire x1="-2.5" y1="2.5" x2="-1.8" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="1.8" x2="-2.5" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="-1.8" width="0.2032" layer="21"/>
-<wire x1="-1.8" y1="-2.5" x2="-2.5" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="1.8" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="-1.8" x2="2.5" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="1.8" width="0.2032" layer="21"/>
-<wire x1="1.8" y1="2.5" x2="2.5" y2="2.5" width="0.2032" layer="21"/>
-<smd name="1" x="-2.325" y="1.3" dx="0.95" dy="0.4" layer="1" stop="no" cream="no"/>
-<smd name="2" x="-2.325" y="0.65" dx="0.95" dy="0.4" layer="1" stop="no" cream="no"/>
-<smd name="3" x="-2.325" y="0" dx="0.95" dy="0.4" layer="1" stop="no" cream="no"/>
-<smd name="4" x="-2.325" y="-0.65" dx="0.95" dy="0.4" layer="1" stop="no" cream="no"/>
-<smd name="5" x="-2.325" y="-1.3" dx="0.95" dy="0.4" layer="1" stop="no" cream="no"/>
-<smd name="6" x="-1.3" y="-2.325" dx="0.95" dy="0.4" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="7" x="-0.65" y="-2.325" dx="0.95" dy="0.4" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="8" x="0" y="-2.325" dx="0.95" dy="0.4" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="9" x="0.65" y="-2.325" dx="0.95" dy="0.4" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="10" x="1.3" y="-2.325" dx="0.95" dy="0.4" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="11" x="2.325" y="-1.3" dx="0.95" dy="0.4" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="12" x="2.325" y="-0.65" dx="0.95" dy="0.4" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="13" x="2.325" y="0" dx="0.95" dy="0.4" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="14" x="2.325" y="0.65" dx="0.95" dy="0.4" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="15" x="2.325" y="1.3" dx="0.95" dy="0.4" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="16" x="1.3" y="2.325" dx="0.95" dy="0.4" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="17" x="0.65" y="2.325" dx="0.95" dy="0.4" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="18" x="0" y="2.325" dx="0.95" dy="0.4" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="19" x="-0.65" y="2.325" dx="0.95" dy="0.4" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="20" x="-1.3" y="2.325" dx="0.95" dy="0.4" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="EXP" x="0" y="0" dx="2.7" dy="2.7" layer="1" stop="no" cream="no"/>
-<text x="-2.75" y="3" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.5" y="-4.5" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.75" y1="1.75" x2="1.75" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="1.75" y1="1.75" x2="1.75" y2="-1.75" width="0.2032" layer="51"/>
+<wire x1="1.75" y1="-1.75" x2="-1.75" y2="-1.75" width="0.2032" layer="51"/>
+<wire x1="-1.75" y1="-1.75" x2="-1.75" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="-1.75" y1="1.75" x2="-1.3" y2="1.75" width="0.2032" layer="21"/>
+<wire x1="-1.75" y1="1.3" x2="-1.75" y2="1.75" width="0.2032" layer="21"/>
+<wire x1="-1.75" y1="-1.75" x2="-1.75" y2="-1.3" width="0.2032" layer="21"/>
+<wire x1="-1.3" y1="-1.75" x2="-1.75" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="1.75" y1="-1.75" x2="1.3" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="1.75" y1="-1.3" x2="1.75" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="1.75" y1="1.75" x2="1.75" y2="1.3" width="0.2032" layer="21"/>
+<wire x1="1.3" y1="1.75" x2="1.75" y2="1.75" width="0.2032" layer="21"/>
+<text x="-2.25" y="3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.5" y="-4.25" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.775" y1="1.125" x2="-1.875" y2="1.475" layer="31"/>
 <rectangle x1="-2.85" y1="1.05" x2="-1.8" y2="1.55" layer="29"/>
 <rectangle x1="-2.775" y1="0.475" x2="-1.875" y2="0.825" layer="31"/>
@@ -372,7 +351,6 @@ Source: http://pdfserv.maxim-ic.com/package_dwgs/21-0140.PDF</description>
 <rectangle x1="0.25" y1="0.25" x2="1.25" y2="1.25" layer="31"/>
 <rectangle x1="0.25" y1="-1.25" x2="1.25" y2="-0.25" layer="31"/>
 <rectangle x1="-1.25" y1="-1.25" x2="-0.25" y2="-0.25" layer="31"/>
-<rectangle x1="-2.4" y1="2.2" x2="-2.2" y2="2.4" layer="1"/>
 <polygon width="0.2" layer="29">
 <vertex x="-1.3" y="1.1"/>
 <vertex x="-1.1" y="1.3"/>
@@ -380,7 +358,28 @@ Source: http://pdfserv.maxim-ic.com/package_dwgs/21-0140.PDF</description>
 <vertex x="1.3" y="-1.3"/>
 <vertex x="-1.3" y="-1.3"/>
 </polygon>
-<circle x="-1.27" y="1.27" radius="0.635" width="0.127" layer="21"/>
+<smd name="P$1" x="-2" y="1" dx="1.1" dy="0.3" layer="1"/>
+<smd name="P$2" x="-2" y="0.5" dx="1.1" dy="0.3" layer="1"/>
+<smd name="P$3" x="-2" y="0" dx="1.1" dy="0.3" layer="1"/>
+<smd name="P$4" x="-2" y="-0.5" dx="1.1" dy="0.3" layer="1"/>
+<smd name="P$5" x="-2" y="-1" dx="1.1" dy="0.3" layer="1"/>
+<smd name="P$6" x="-1" y="-2" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$7" x="-0.5" y="-2" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$8" x="0" y="-2" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$9" x="0.5" y="-2" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$10" x="1" y="-2" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$11" x="2" y="-1" dx="1.1" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$12" x="2" y="-0.5" dx="1.1" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$13" x="2" y="0" dx="1.1" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$14" x="2" y="0.5" dx="1.1" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$15" x="2" y="1" dx="1.1" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$16" x="1" y="2" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$17" x="0.5" y="2" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$18" x="0" y="2" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$19" x="-0.5" y="2" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$20" x="-1" y="2" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<circle x="-2.25" y="2.25" radius="0.25" width="0.127" layer="21"/>
+<smd name="P$21" x="0" y="0" dx="2" dy="2" layer="1"/>
 </package>
 <package name="RCA-2-117-01">
 <description>&lt;b&gt;RCA JACK DIP R/A 4pos&lt;/b&gt;&lt;p&gt;
@@ -5338,28 +5337,7 @@ short conditions is included.</description>
 <gate name="G$1" symbol="MAX31865" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TQFN20-5X5">
-<connects>
-<connect gate="G$1" pin="!CS" pad="13"/>
-<connect gate="G$1" pin="!DRDY" pad="18"/>
-<connect gate="G$1" pin="BIAS" pad="1"/>
-<connect gate="G$1" pin="DGND" pad="15"/>
-<connect gate="G$1" pin="DVDD" pad="19"/>
-<connect gate="G$1" pin="FORCE+" pad="5"/>
-<connect gate="G$1" pin="FORCE-" pad="9"/>
-<connect gate="G$1" pin="FORCE2" pad="6"/>
-<connect gate="G$1" pin="GND1" pad="16 EXP"/>
-<connect gate="G$1" pin="GND2" pad="10"/>
-<connect gate="G$1" pin="ISENSOR" pad="4"/>
-<connect gate="G$1" pin="REFIN+" pad="2"/>
-<connect gate="G$1" pin="REFIN-" pad="3"/>
-<connect gate="G$1" pin="RTDIN+" pad="7"/>
-<connect gate="G$1" pin="RTDIN-" pad="8"/>
-<connect gate="G$1" pin="SCLK" pad="12"/>
-<connect gate="G$1" pin="SDI" pad="11"/>
-<connect gate="G$1" pin="SDO" pad="14"/>
-<connect gate="G$1" pin="VDD" pad="20"/>
-</connects>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6946,23 +6924,23 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <devices>
 <device name="" package="TQFN20-5X5">
 <connects>
-<connect gate="G$1" pin="!EN" pad="5"/>
-<connect gate="G$1" pin="LBOOST" pad="20"/>
-<connect gate="G$1" pin="LBUCK" pad="16"/>
-<connect gate="G$1" pin="OK_HYST" pad="10"/>
-<connect gate="G$1" pin="OK_PROG" pad="11"/>
-<connect gate="G$1" pin="VBAT" pad="7"/>
-<connect gate="G$1" pin="VBAT_0V" pad="18"/>
-<connect gate="G$1" pin="VBAT_OK" pad="13"/>
-<connect gate="G$1" pin="VIN_DC" pad="2"/>
-<connect gate="G$1" pin="VOC_SAMP" pad="3"/>
-<connect gate="G$1" pin="VOUT" pad="14"/>
-<connect gate="G$1" pin="VOUT_EN" pad="6"/>
-<connect gate="G$1" pin="VOUT_SET" pad="12"/>
-<connect gate="G$1" pin="VRDIV" pad="8"/>
-<connect gate="G$1" pin="VREF_SAMP" pad="4"/>
-<connect gate="G$1" pin="VSS" pad="1 9 15 17 EXP"/>
-<connect gate="G$1" pin="VSTOR" pad="19"/>
+<connect gate="G$1" pin="!EN" pad="P$5"/>
+<connect gate="G$1" pin="LBOOST" pad="P$20"/>
+<connect gate="G$1" pin="LBUCK" pad="P$16"/>
+<connect gate="G$1" pin="OK_HYST" pad="P$10"/>
+<connect gate="G$1" pin="OK_PROG" pad="P$11"/>
+<connect gate="G$1" pin="VBAT" pad="P$18"/>
+<connect gate="G$1" pin="VBAT_0V" pad="P$7"/>
+<connect gate="G$1" pin="VBAT_OK" pad="P$13"/>
+<connect gate="G$1" pin="VIN_DC" pad="P$2"/>
+<connect gate="G$1" pin="VOC_SAMP" pad="P$3"/>
+<connect gate="G$1" pin="VOUT" pad="P$14"/>
+<connect gate="G$1" pin="VOUT_EN" pad="P$6"/>
+<connect gate="G$1" pin="VOUT_SET" pad="P$12"/>
+<connect gate="G$1" pin="VRDIV" pad="P$8"/>
+<connect gate="G$1" pin="VREF_SAMP" pad="P$4"/>
+<connect gate="G$1" pin="VSS" pad="P$1 P$15 P$21"/>
+<connect gate="G$1" pin="VSTOR" pad="P$19"/>
 </connects>
 <technologies>
 <technology name=""/>

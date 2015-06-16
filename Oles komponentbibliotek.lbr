@@ -3114,6 +3114,52 @@ grid 2.54 mm</description>
 <text x="-3.4544" y="-11.43" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 <text x="-3.4544" y="8.89" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 </package>
+<package name="SOT65P210X110-5N">
+<smd name="1" x="-0.9652" y="0.6604" dx="1.1684" dy="0.3556" layer="1"/>
+<smd name="2" x="-0.9652" y="0" dx="1.1684" dy="0.3556" layer="1"/>
+<smd name="3" x="-0.9652" y="-0.6604" dx="1.1684" dy="0.3556" layer="1"/>
+<smd name="4" x="0.9652" y="-0.6604" dx="1.1684" dy="0.3556" layer="1"/>
+<smd name="5" x="0.9652" y="0.6604" dx="1.1684" dy="0.3556" layer="1"/>
+<wire x1="-0.2286" y1="-1.1176" x2="0.2286" y2="-1.1176" width="0.1524" layer="21"/>
+<wire x1="0.6858" y1="-0.1524" x2="0.6858" y2="0.1524" width="0.1524" layer="21"/>
+<wire x1="0.2286" y1="1.1176" x2="-0.2286" y2="1.1176" width="0.1524" layer="21"/>
+<text x="-1.8034" y="0.8636" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<wire x1="-0.6858" y1="-1.1176" x2="0.6858" y2="-1.1176" width="0" layer="51"/>
+<wire x1="0.6858" y1="-1.1176" x2="0.6858" y2="-0.7874" width="0" layer="51"/>
+<wire x1="0.6858" y1="-0.7874" x2="0.6858" y2="-0.508" width="0" layer="51"/>
+<wire x1="0.6858" y1="-0.508" x2="0.6858" y2="0.508" width="0" layer="51"/>
+<wire x1="0.6858" y1="0.508" x2="0.6858" y2="0.7874" width="0" layer="51"/>
+<wire x1="0.6858" y1="0.7874" x2="0.6858" y2="1.1176" width="0" layer="51"/>
+<wire x1="0.6858" y1="1.1176" x2="0.3048" y2="1.1176" width="0" layer="51"/>
+<wire x1="0.3048" y1="1.1176" x2="-0.3048" y2="1.1176" width="0" layer="51"/>
+<wire x1="-0.3048" y1="1.1176" x2="-0.6858" y2="1.1176" width="0" layer="51"/>
+<wire x1="-0.6858" y1="1.1176" x2="-0.6858" y2="0.7874" width="0" layer="51"/>
+<wire x1="-0.6858" y1="0.7874" x2="-0.6858" y2="0.508" width="0" layer="51"/>
+<wire x1="-0.6858" y1="0.508" x2="-0.6858" y2="0.1524" width="0" layer="51"/>
+<wire x1="-0.6858" y1="0.1524" x2="-0.6858" y2="-0.1524" width="0" layer="51"/>
+<wire x1="-0.6858" y1="-0.1524" x2="-0.6858" y2="-0.508" width="0" layer="51"/>
+<wire x1="-0.6858" y1="-0.508" x2="-0.6858" y2="-0.7874" width="0" layer="51"/>
+<wire x1="-0.6858" y1="-0.7874" x2="-0.6858" y2="-1.1176" width="0" layer="51"/>
+<wire x1="-0.6858" y1="0.7874" x2="-1.1176" y2="0.7874" width="0" layer="51"/>
+<wire x1="-1.1176" y1="0.7874" x2="-1.1176" y2="0.508" width="0" layer="51"/>
+<wire x1="-1.1176" y1="0.508" x2="-0.6858" y2="0.508" width="0" layer="51"/>
+<wire x1="-0.6858" y1="0.1524" x2="-1.1176" y2="0.1524" width="0" layer="51"/>
+<wire x1="-1.1176" y1="0.1524" x2="-1.1176" y2="-0.1524" width="0" layer="51"/>
+<wire x1="-1.1176" y1="-0.1524" x2="-0.6858" y2="-0.1524" width="0" layer="51"/>
+<wire x1="-0.6858" y1="-0.508" x2="-1.1176" y2="-0.508" width="0" layer="51"/>
+<wire x1="-1.1176" y1="-0.508" x2="-1.1176" y2="-0.7874" width="0" layer="51"/>
+<wire x1="-1.1176" y1="-0.7874" x2="-0.6858" y2="-0.7874" width="0" layer="51"/>
+<wire x1="0.6858" y1="-0.7874" x2="1.1176" y2="-0.7874" width="0" layer="51"/>
+<wire x1="1.1176" y1="-0.7874" x2="1.1176" y2="-0.508" width="0" layer="51"/>
+<wire x1="1.1176" y1="-0.508" x2="0.6858" y2="-0.508" width="0" layer="51"/>
+<wire x1="0.6858" y1="0.508" x2="1.1176" y2="0.508" width="0" layer="51"/>
+<wire x1="1.1176" y1="0.508" x2="1.1176" y2="0.7874" width="0" layer="51"/>
+<wire x1="1.1176" y1="0.7874" x2="0.6858" y2="0.7874" width="0" layer="51"/>
+<wire x1="0.3048" y1="1.1176" x2="-0.3048" y2="1.1176" width="0" layer="51" curve="-180"/>
+<text x="-1.8034" y="0.8636" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<text x="-3.4544" y="2.54" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-4.445" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="PIC16C610">
@@ -5764,6 +5810,39 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <text x="-7.62" y="7.62" size="1.27" layer="95" rot="R180" align="center-right">&gt;NAME</text>
 <text x="-7.62" y="5.08" size="1.27" layer="96" rot="R180" align="center-right">&gt;VALUE</text>
 </symbol>
+<symbol name="IP4256CZ5-W">
+<description>Dual-channel passive filter network with ESD protection</description>
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<pin name="P$1" x="-10.16" y="2.54" visible="off" length="short" direction="pas"/>
+<pin name="P$2" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="P$3" x="-10.16" y="0" visible="off" length="short" direction="pas"/>
+<pin name="P$4" x="10.16" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="P$5" x="10.16" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="0" y="-4.064" size="1.27" layer="94" rot="R180" align="top-center">GND</text>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-1.524" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="1.524" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="3.048" x2="1.524" y2="3.048" width="0.254" layer="94"/>
+<wire x1="1.524" y1="3.048" x2="1.524" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.524" y1="2.54" x2="1.524" y2="2.032" width="0.254" layer="94"/>
+<wire x1="1.524" y1="2.032" x2="-1.524" y2="2.032" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="2.032" x2="-1.524" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="2.54" x2="-1.524" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-1.524" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="1.524" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="0.508" x2="1.524" y2="0.508" width="0.254" layer="94"/>
+<wire x1="1.524" y1="0.508" x2="1.524" y2="0" width="0.254" layer="94"/>
+<wire x1="1.524" y1="0" x2="1.524" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-0.508" x2="-1.524" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-0.508" x2="-1.524" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="0" x2="-1.524" y2="0.508" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SMBJXXA" prefix="D" uservalue="yes">
@@ -8259,6 +8338,26 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <connect gate="G$1" pin="VSSA" pad="12"/>
 <connect gate="G$1" pin="VSS_1" pad="18"/>
 <connect gate="G$1" pin="VSS_2" pad="63"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IP4256CZ5-W">
+<description>Dual-channel passive filter network with ESD protection</description>
+<gates>
+<gate name="G$1" symbol="IP4256CZ5-W" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT65P210X110-5N">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+<connect gate="G$1" pin="P$5" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>

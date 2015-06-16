@@ -308,3 +308,6 @@
    STM32F405RGT6
           High-performance microcontroller and DSP with FPU, ARM Cortex-M4
           MCU with 1 Mbyte Flash, 168 MHz CPU, Art Accelerator
+
+   IP4256CZ5-W
+          Dual-channel passive filter network with ESD protection

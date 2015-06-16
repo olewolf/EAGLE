@@ -304,3 +304,7 @@
 
    MCP1710
           Ultra-Low Quiescent Current LDO Regulator
+
+   STM32F405RGT6
+          High-performance microcontroller and DSP with FPU, ARM Cortex-M4
+          MCU with 1 Mbyte Flash, 168 MHz CPU, Art Accelerator

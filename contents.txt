@@ -311,3 +311,6 @@
 
    IP4256CZ5-W
           Dual-channel passive filter network with ESD protection
+
+   TX2-LT-XX-TH
+          Panasonic TX relays, TH types, 2-coil latching

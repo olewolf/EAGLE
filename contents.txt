@@ -314,3 +314,6 @@
 
    TX2-LT-XX-TH
           Panasonic TX relays, TH types, 2-coil latching
+
+   M25P16-VMN6P
+          16 Mbit SPI NOR flash memory 75 MHz

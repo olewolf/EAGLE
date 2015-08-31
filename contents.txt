@@ -317,3 +317,6 @@
 
    M25P16-VMN6P
           16 Mbit SPI NOR flash memory 75 MHz
+
+   MS5611-01BA03
+          MS5611-01BA03 Barometric Pressure Sensor

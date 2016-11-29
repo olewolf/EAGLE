@@ -320,3 +320,6 @@
 
    MS5611-01BA03
           MS5611-01BA03 Barometric Pressure Sensor
+
+   MSP430G2X55
+          MSP430G2x55 Mixed Signal Microcontroller

@@ -3202,6 +3202,51 @@ grid 2.54 mm</description>
 <wire x1="-1.6" y1="-2.2" x2="-1.6" y2="2.5" width="0.127" layer="21"/>
 <circle x="-1.3" y="3" radius="0.22360625" width="0.127" layer="21"/>
 </package>
+<package name="TSSOP38">
+<smd name="P$1" x="0" y="0" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$2" x="0.65" y="0" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$3" x="1.3" y="0" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$4" x="1.95" y="0" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$5" x="2.6" y="0" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$6" x="3.25" y="0" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$7" x="3.9" y="0" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$8" x="4.55" y="0" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$9" x="5.2" y="0" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$10" x="5.85" y="0" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$11" x="6.5" y="0" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$12" x="7.15" y="0" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$13" x="7.8" y="0" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$14" x="8.45" y="0" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$15" x="9.1" y="0" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$16" x="9.75" y="0" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$17" x="10.4" y="0" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$18" x="11.05" y="0" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$19" x="11.7" y="0" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$20" x="11.7" y="7.1" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$21" x="11.05" y="7.1" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$22" x="10.4" y="7.1" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$23" x="9.75" y="7.1" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$24" x="9.1" y="7.1" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$25" x="8.45" y="7.1" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$26" x="7.8" y="7.1" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$27" x="7.15" y="7.1" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$28" x="6.5" y="7.1" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$29" x="5.85" y="7.1" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$30" x="5.2" y="7.1" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$31" x="4.55" y="7.1" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$32" x="3.9" y="7.1" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$33" x="3.25" y="7.1" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$34" x="2.6" y="7.1" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$35" x="1.95" y="7.1" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$36" x="1.3" y="7.1" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$37" x="0.65" y="7.1" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$38" x="0" y="7.1" dx="1.15" dy="0.3" layer="1" rot="R90"/>
+<wire x1="0" y1="0" x2="11.7" y2="0" width="0.127" layer="21"/>
+<wire x1="11.7" y1="0" x2="11.7" y2="7.15" width="0.127" layer="21"/>
+<wire x1="11.7" y1="7.15" x2="0" y2="7.15" width="0.127" layer="21"/>
+<wire x1="0" y1="7.15" x2="0" y2="0" width="0.127" layer="21"/>
+<circle x="1" y="1.75" radius="0.610325" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PIC16C610">
@@ -6006,57 +6051,127 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <text x="0" y="12.7" size="1.778" layer="94">&gt;NAME</text>
 <text x="0" y="-6.35" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
+<symbol name="MSP430G2X55">
+<description>MSP430G2x55 Mixed Signal Microcontroller</description>
+<pin name="VCC" x="-34.29" y="29.21" length="short" direction="pwr"/>
+<pin name="VSS" x="-34.29" y="-29.21" length="short" direction="pwr"/>
+<pin name="AVCC" x="33.02" y="29.21" length="short" direction="pwr" rot="R180"/>
+<pin name="AVSS" x="33.02" y="-29.21" length="short" direction="pwr" rot="R180"/>
+<pin name="TEST/SBWTCK" x="33.02" y="8.89" length="short" direction="in" rot="R180"/>
+<pin name="P2.5/TA1.0/ROSC" x="-34.29" y="1.27" length="short" direction="in"/>
+<pin name="XOUT/P2.7" x="33.02" y="21.59" length="short" direction="in" rot="R180"/>
+<pin name="XIN/P2.6" x="33.02" y="19.05" length="short" direction="in" rot="R180"/>
+<pin name="!RST!/NMI/SBWTDIO" x="33.02" y="11.43" length="short" direction="in" rot="R180"/>
+<pin name="P2.0/TA1CLK/ACLK/A0" x="-34.29" y="13.97" length="short" direction="in"/>
+<pin name="P2.1/TA0INCLK/SMCLK/A1" x="-34.29" y="11.43" length="short" direction="in"/>
+<pin name="P2.2/TA0.0/A2" x="-34.29" y="8.89" length="short" direction="in"/>
+<pin name="P3.0/UCB0STE/UCA0CLK/A5" x="33.02" y="-19.05" length="short" direction="in" rot="R180"/>
+<pin name="P3.1/UCB0SIMO/UCB0SDA" x="33.02" y="-11.43" length="short" direction="in" rot="R180"/>
+<pin name="P3.2/UCB0SOMI/UCB0SCL" x="33.02" y="-13.97" length="short" direction="in" rot="R180"/>
+<pin name="P3.3/UCB0CLK/UCA0STE" x="33.02" y="-16.51" length="short" direction="in" rot="R180"/>
+<pin name="P4.0/TB0.0/CA0" x="-34.29" y="-6.35" length="short" direction="in"/>
+<pin name="P4.1/TB0.1/CA1" x="-34.29" y="-8.89" length="short" direction="in"/>
+<pin name="P4.2/TB0.2/CA2" x="-34.29" y="-11.43" length="short" direction="in"/>
+<pin name="P1.7/TA0.2/TDO/TDI" x="33.02" y="-1.27" length="short" direction="in" rot="R180"/>
+<pin name="P1.6/TA0.1/TDI" x="33.02" y="3.81" length="short" direction="in" rot="R180"/>
+<pin name="P1.5/TA0.0/TMS" x="33.02" y="1.27" length="short" direction="in" rot="R180"/>
+<pin name="P1.4/SMCLK/TCK" x="33.02" y="-3.81" length="short" direction="in" rot="R180"/>
+<pin name="P1.3/TA0.2" x="-34.29" y="16.51" length="short" direction="in"/>
+<pin name="P1.2/TA0.1" x="-34.29" y="19.05" length="short" direction="in"/>
+<pin name="P1.1/TA0.0" x="-34.29" y="21.59" length="short" direction="in"/>
+<pin name="P1.0/TA0CLK/ADC10CLK" x="-34.29" y="24.13" length="short" direction="in"/>
+<pin name="P2.4/TA0.2/VREF+/VEREF+" x="-34.29" y="3.81" length="short" direction="in"/>
+<pin name="P2.3/TA0.1/VREF-/VEREF-" x="-34.29" y="-3.81" length="short" direction="in"/>
+<pin name="P3.7/TA1.2/A7" x="-34.29" y="6.35" length="short" direction="in"/>
+<pin name="P3.6/TA1.1/A6" x="-34.29" y="-1.27" length="short" direction="in"/>
+<pin name="P3.5/UCA0RXD/UCA0SOMI" x="33.02" y="-24.13" length="short" direction="in" rot="R180"/>
+<pin name="P3.4/UCA0TXD/UCA0SIMO" x="33.02" y="-21.59" length="short" direction="in" rot="R180"/>
+<pin name="P4.7/TB0CLK/CA7" x="-34.29" y="-21.59" length="short" direction="in"/>
+<pin name="P4.6/TB0OUTH/A15/CA6" x="-34.29" y="-24.13" length="short" direction="in"/>
+<pin name="P4.5/B0.2/A14/CA5" x="-34.29" y="-19.05" length="short" direction="in"/>
+<pin name="P4.4/B0.1/A13/CA4" x="-34.29" y="-16.51" length="short" direction="in"/>
+<pin name="P4.3/B0.0/A12/CA3" x="-34.29" y="-13.97" length="short" direction="in"/>
+<wire x1="-31.75" y1="31.75" x2="30.48" y2="31.75" width="0.254" layer="94"/>
+<wire x1="30.48" y1="31.75" x2="30.48" y2="-31.75" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-31.75" x2="-31.75" y2="-31.75" width="0.254" layer="94"/>
+<wire x1="-31.75" y1="-31.75" x2="-31.75" y2="31.75" width="0.254" layer="94"/>
+</symbol>
+<symbol name="BAV99LT1G">
+<description>Dual Series Switching Diode</description>
+<polygon width="0.254" layer="94">
+<vertex x="-0.508" y="2.54"/>
+<vertex x="-2.032" y="2.54"/>
+<vertex x="-1.27" y="3.556"/>
+</polygon>
+<wire x1="-2.032" y1="3.81" x2="-1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="-0.508" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="0" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-2.032" y="-1.27"/>
+<vertex x="-0.508" y="-1.27"/>
+<vertex x="-1.27" y="-0.254"/>
+</polygon>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<circle x="-1.27" y="1.27" radius="0.254" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="5.08" width="0.254" layer="94"/>
+<pin name="P$1" x="-1.27" y="-2.54" visible="off" length="point"/>
+<pin name="P$2" x="-1.27" y="5.08" visible="off" length="point"/>
+<pin name="P$3" x="1.27" y="1.27" visible="off" length="point"/>
+</symbol>
 <symbol name="CDSOT23-SM712">
-<description>TVS Diode</description>
+<description>Dual TVS diode</description>
 <polygon width="0.254" layer="94">
-<vertex x="-1.778" y="-1.27"/>
-<vertex x="-2.54" y="-2.286"/>
-<vertex x="-3.302" y="-1.27"/>
+<vertex x="1.27" y="2.032"/>
+<vertex x="1.27" y="0.508"/>
+<vertex x="2.286" y="1.27"/>
 </polygon>
-<wire x1="-3.302" y1="-2.794" x2="-3.048" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-3.048" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.032" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.032" y1="-2.54" x2="-1.778" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="2.286" y1="2.032" x2="2.54" y2="1.778" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.778" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.762" x2="2.794" y2="0.508" width="0.254" layer="94"/>
 <polygon width="0.254" layer="94">
-<vertex x="-1.778" y="0"/>
-<vertex x="-2.54" y="1.27"/>
-<vertex x="-3.302" y="0"/>
+<vertex x="0" y="2.032"/>
+<vertex x="0" y="0.508"/>
+<vertex x="-1.016" y="1.27"/>
 </polygon>
-<wire x1="-3.556" y1="1.016" x2="-3.302" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-3.302" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="1.27" x2="-2.032" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-2.032" y1="1.27" x2="-1.778" y2="1.524" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="2.032" x2="-1.27" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.778" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0.762" x2="-1.524" y2="0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="3.81" y2="1.27" width="0.254" layer="94"/>
 <polygon width="0.254" layer="94">
-<vertex x="3.302" y="-1.27"/>
-<vertex x="2.54" y="-2.286"/>
-<vertex x="1.778" y="-1.27"/>
+<vertex x="1.27" y="-0.508"/>
+<vertex x="1.27" y="-2.032"/>
+<vertex x="2.286" y="-1.27"/>
 </polygon>
-<wire x1="1.778" y1="-2.794" x2="2.032" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.032" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="3.048" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="3.048" y1="-2.54" x2="3.302" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-0.508" x2="2.54" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.762" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.778" x2="2.794" y2="-2.032" width="0.254" layer="94"/>
 <polygon width="0.254" layer="94">
-<vertex x="3.302" y="0"/>
-<vertex x="2.54" y="1.27"/>
-<vertex x="1.778" y="0"/>
+<vertex x="0" y="-0.508"/>
+<vertex x="0" y="-2.032"/>
+<vertex x="-1.016" y="-1.27"/>
 </polygon>
-<wire x1="1.524" y1="1.016" x2="1.778" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.778" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="1.27" x2="3.048" y2="1.27" width="0.254" layer="94"/>
-<wire x1="3.048" y1="1.27" x2="3.302" y2="1.524" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="3.81" width="0.254" layer="94"/>
-<circle x="0" y="2.54" radius="0.179603125" width="0.4064" layer="94"/>
-<pin name="P$1" x="-2.54" y="-3.81" length="point"/>
-<pin name="P$2" x="2.54" y="-3.81" length="point"/>
-<pin name="P$3" x="0" y="3.81" length="point"/>
+<wire x1="-1.016" y1="-0.508" x2="-1.27" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-0.762" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.778" x2="-1.524" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<circle x="3.81" y="0" radius="0.254" width="0.4064" layer="94"/>
+<pin name="P$1" x="-2.54" y="1.27" visible="off" length="point"/>
+<pin name="P$2" x="-2.54" y="-1.27" visible="off" length="point"/>
+<pin name="P$3" x="5.08" y="0" visible="off" length="point"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -8650,7 +8765,79 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 </device>
 </devices>
 </deviceset>
+<deviceset name="MSP430G2X55">
+<description>MSP430G2x55 Mixed Signal Microcontroller</description>
+<gates>
+<gate name="G$1" symbol="MSP430G2X55" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="TSSOP38">
+<connects>
+<connect gate="G$1" pin="!RST!/NMI/SBWTDIO" pad="P$7"/>
+<connect gate="G$1" pin="AVCC" pad="P$16"/>
+<connect gate="G$1" pin="AVSS" pad="P$15"/>
+<connect gate="G$1" pin="P1.0/TA0CLK/ADC10CLK" pad="P$31"/>
+<connect gate="G$1" pin="P1.1/TA0.0" pad="P$32"/>
+<connect gate="G$1" pin="P1.2/TA0.1" pad="P$33"/>
+<connect gate="G$1" pin="P1.3/TA0.2" pad="P$34"/>
+<connect gate="G$1" pin="P1.4/SMCLK/TCK" pad="P$35"/>
+<connect gate="G$1" pin="P1.5/TA0.0/TMS" pad="P$36"/>
+<connect gate="G$1" pin="P1.6/TA0.1/TDI" pad="P$37"/>
+<connect gate="G$1" pin="P1.7/TA0.2/TDO/TDI" pad="P$38"/>
+<connect gate="G$1" pin="P2.0/TA1CLK/ACLK/A0" pad="P$8"/>
+<connect gate="G$1" pin="P2.1/TA0INCLK/SMCLK/A1" pad="P$9"/>
+<connect gate="G$1" pin="P2.2/TA0.0/A2" pad="P$10"/>
+<connect gate="G$1" pin="P2.3/TA0.1/VREF-/VEREF-" pad="P$29"/>
+<connect gate="G$1" pin="P2.4/TA0.2/VREF+/VEREF+" pad="P$30"/>
+<connect gate="G$1" pin="P2.5/TA1.0/ROSC" pad="P$3"/>
+<connect gate="G$1" pin="P3.0/UCB0STE/UCA0CLK/A5" pad="P$11"/>
+<connect gate="G$1" pin="P3.1/UCB0SIMO/UCB0SDA" pad="P$12"/>
+<connect gate="G$1" pin="P3.2/UCB0SOMI/UCB0SCL" pad="P$13"/>
+<connect gate="G$1" pin="P3.3/UCB0CLK/UCA0STE" pad="P$14"/>
+<connect gate="G$1" pin="P3.4/UCA0TXD/UCA0SIMO" pad="P$25"/>
+<connect gate="G$1" pin="P3.5/UCA0RXD/UCA0SOMI" pad="P$26"/>
+<connect gate="G$1" pin="P3.6/TA1.1/A6" pad="P$27"/>
+<connect gate="G$1" pin="P3.7/TA1.2/A7" pad="P$28"/>
+<connect gate="G$1" pin="P4.0/TB0.0/CA0" pad="P$17"/>
+<connect gate="G$1" pin="P4.1/TB0.1/CA1" pad="P$18"/>
+<connect gate="G$1" pin="P4.2/TB0.2/CA2" pad="P$19"/>
+<connect gate="G$1" pin="P4.3/B0.0/A12/CA3" pad="P$20"/>
+<connect gate="G$1" pin="P4.4/B0.1/A13/CA4" pad="P$21"/>
+<connect gate="G$1" pin="P4.5/B0.2/A14/CA5" pad="P$22"/>
+<connect gate="G$1" pin="P4.6/TB0OUTH/A15/CA6" pad="P$23"/>
+<connect gate="G$1" pin="P4.7/TB0CLK/CA7" pad="P$24"/>
+<connect gate="G$1" pin="TEST/SBWTCK" pad="P$1"/>
+<connect gate="G$1" pin="VCC" pad="P$2"/>
+<connect gate="G$1" pin="VSS" pad="P$4"/>
+<connect gate="G$1" pin="XIN/P2.6" pad="P$6"/>
+<connect gate="G$1" pin="XOUT/P2.7" pad="P$5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAV99LT1G">
+<description>Dual Series Switching Diode</description>
+<gates>
+<gate name="G$1" symbol="BAV99LT1G" x="1.27" y="-1.27"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="CDSOT23-SM712">
+<description>Dual TVS diode</description>
 <gates>
 <gate name="G$1" symbol="CDSOT23-SM712" x="0" y="0"/>
 </gates>

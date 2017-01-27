@@ -332,3 +332,6 @@
 
    WAGO2060-403
           WAGO2060-403 3-pin SMD terminal block
+
+   SKRPABE010
+          SKRPABE010 Alps Electronics SMD-mounted tactile switch

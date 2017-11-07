@@ -339,3 +339,6 @@
    HV5622
           High-voltage 32-channel serial to parallel converter with open
           drain outputs
+
+   LTC3536EMSE
+          1A Low Noise, Buck-Boost DC/DC Converter

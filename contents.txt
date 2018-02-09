@@ -342,3 +342,6 @@
 
    LTC3536EMSE
           1A Low Noise, Buck-Boost DC/DC Converter
+
+   TAG-CONNECT-TC2050-IDC
+          Tag-Connect 10-pin TC2050-IDC plug of nails (no legs)

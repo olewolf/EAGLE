@@ -345,3 +345,7 @@
 
    TAG-CONNECT-TC2050-IDC
           Tag-Connect 10-pin TC2050-IDC plug of nails (no legs)
+
+   TPS61291DVRT
+          Low Iq Boost Converter with 15nA Bypass Operation in 2x2mm
+          package

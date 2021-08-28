@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -3498,6 +3498,20 @@ grid 2.54 mm</description>
 <pad name="9" x="1.27" y="2.54" drill="0.6" diameter="1.016"/>
 <pad name="10" x="0" y="2.54" drill="0.6" diameter="1.016"/>
 </package>
+<package name="SOT-23-3.2">
+<smd name="P$1" x="0" y="0.95" dx="1.25" dy="0.5" layer="1"/>
+<smd name="P$2" x="0" y="0" dx="1.25" dy="0.5" layer="1"/>
+<smd name="P$3" x="0" y="-0.95" dx="1.25" dy="0.5" layer="1"/>
+<smd name="P$4" x="2.35" y="-0.95" dx="1.25" dy="0.5" layer="1" rot="R180"/>
+<smd name="P$5" x="2.35" y="0.95" dx="1.25" dy="0.5" layer="1" rot="R180"/>
+<wire x1="0.3" y1="1.5" x2="2.05" y2="1.5" width="0.127" layer="21"/>
+<wire x1="2.05" y1="1.5" x2="2.05" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="2.05" y1="-1.5" x2="0.3" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="0.3" y1="-1.5" x2="0.3" y2="1.5" width="0.127" layer="21"/>
+<circle x="0.8" y="1" radius="0.360553125" width="0.127" layer="21"/>
+<text x="-0.508" y="2.032" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-0.508" y="-2.159" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="PIC16C610">
@@ -6636,6 +6650,25 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <text x="-5.08" y="7.62" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-11.43" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="TPS61097A-33">
+<description>Fixed 3.3V low-input voltage synchronous-boost converter with low quiescent current</description>
+<pin name="P$1" x="-27.94" y="17.78" visible="off" length="short" direction="pwr"/>
+<pin name="P$2" x="-17.78" y="5.08" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="P$3" x="-7.62" y="17.78" visible="off" length="short" direction="pwr" rot="R180"/>
+<text x="-17.78" y="8.89" size="1.27" layer="94" align="bottom-center">GND</text>
+<text x="-24.13" y="17.78" size="1.27" layer="94" align="center-left">Vin</text>
+<text x="-11.43" y="17.78" size="1.27" layer="94" align="center-right">Vout</text>
+<pin name="P$4" x="-27.94" y="22.86" visible="off" length="short" direction="pas"/>
+<pin name="P$5" x="-27.94" y="12.7" visible="off" length="short" direction="in"/>
+<text x="-24.13" y="22.86" size="1.27" layer="94" align="center-left">L</text>
+<text x="-24.13" y="12.7" size="1.27" layer="94" align="center-left">EN</text>
+<wire x1="-25.4" y1="27.94" x2="-10.16" y2="27.94" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="27.94" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-25.4" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="7.62" x2="-25.4" y2="27.94" width="0.254" layer="94"/>
+<text x="-16.51" y="6.35" size="1.27" layer="96" align="top-left">&gt;VALUE</text>
+<text x="-24.13" y="29.21" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SMBJXXA" prefix="D" uservalue="yes">
@@ -9519,6 +9552,26 @@ The DS2408 is an 8-channel, programmable I/O 1-Wire chip. PIO outputs are config
 <connect gate="G$1" pin="P$7" pad="7"/>
 <connect gate="G$1" pin="P$8" pad="8"/>
 <connect gate="G$1" pin="P$9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS61097A-33">
+<description>Fixed 3.3V low-input voltage synchronous-boost converter with low quiescent current</description>
+<gates>
+<gate name="G$1" symbol="TPS61097A-33" x="17.78" y="-15.24"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-3.2">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$4"/>
+<connect gate="G$1" pin="P$4" pad="P$5"/>
+<connect gate="G$1" pin="P$5" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
